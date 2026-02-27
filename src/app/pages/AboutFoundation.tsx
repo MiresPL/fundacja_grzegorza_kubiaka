@@ -15,24 +15,22 @@ export function AboutFoundation() {
 
           <h2 className="text-2xl font-semibold mb-4">Kim jesteśmy</h2>
           <p className="mb-6 text-gray-700">
-            Fundacja Jeździecka to organizacja non-profit prowadząca klub sportowy, 
-            którego głównym celem jest rozwój jeździectwa wyczynowego i wspieranie młodych 
-            talentów jeździeckich. Działamy od 2012 roku, łącząc pasję do koni z 
-            profesjonalnym podejściem do sportu.
+            Fundacja Grzegorza Kubiaka-Rozwój i Pasja to organizacja prowadząca klub sportowy, zarejestrowany w
+            Warszawsko-Mazowieckim Związku Jeździeckim oraz w Polskim Związku Jeździeckim.
+            Naszym głównym celem jest rozwój jeździectwa wyczynowego i wspieranie młodych talentów jeździeckich.
+            Działamy od 2026 roku, łącząc pasję do koni z profesjonalnym podejściem do sportu.
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">Nasza historia</h2>
           <p className="mb-6 text-gray-700">
-            Fundacja została założona przez grupę pasjonatów jeździectwa, którzy dostrzegli 
-            potrzebę systematycznego wsparcia dla młodych zawodniczek. Rozpoczęliśmy od małej 
-            stajni z kilkoma końmi, a dziś dysponujemy nowoczesnym ośrodkiem jeździeckim z 
-            profesjonalną infrastrukturą, 25 końmi szkoleniowymi i pełnowymiarową halą treningową.
+            Fundacja Grzegorza Kubiaka-Rozwój i Pasja powstała 20 stycznia 2026 r.
+            Fundatorem i pomysłodawcą został Grzegorz Kubiak.
+            Fundacja wspiera grupę ambitnej i utalentowanej młodzieży, która regularnie odnosi sukcesy w ogólnopolskich i międzynarodowych zawodach jeździeckich. Nasze zawodniczki i zawodnicy są regularnie powoływani do kadry wojewódzkiej oraz do kadry narodowej dzieci i młodzieży
+            Naszym trenerem jest Olimpijczyk, Trener i Selekcjoner Kadry Narodowej – Grzegorz Kubiak
           </p>
 
           <p className="mb-6 text-gray-700">
-            Od momentu powstania przeszkoliłyśmy ponad 150 jeźdźców, a nasze zawodniczki 
-            zdobyły ponad 80 medali w zawodach krajowych i międzynarodowych. Jesteśmy dumni, 
-            że kilka z nich reprezentowało Polskę w międzynarodowych zawodach juniorskich.
+            Nasza młodzież startuje w zawodach skokowych na poziomach od 110 do 150 cm, w tym w konkursach Grand Prix, CSI1* oraz CSI2* zarówno na zawodach jeździeckich w Polsce i Europie.
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">Nasze wartości</h2>
@@ -49,54 +47,39 @@ export function AboutFoundation() {
           <div className="space-y-4 text-gray-700">
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Hala treningowa</h3>
-              <p>Kryta hala jeździecka 20x60m z profesjonalną nawierzchnią, 
-              umożliwiająca treningi przez cały rok.</p>
+              <p>Kryta hala jeździecka 30x60m z profesjonalną nawierzchnią, umożliwiająca treningi przez cały rok.</p>
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Plac zewnętrzny</h3>
-              <p>Zewnętrzne ujeżdżalnie 20x40m i 20x60m oraz tor przeszkód z możliwością 
-              budowy różnych konfiguracji.</p>
+              <p>Zewnętrzna ujeżdżalnia 60m x 80m oraz tor przeszkód z możliwością budowy różnych konfiguracji.</p>
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Stajnie</h3>
-              <p>Nowoczesne boksy dla 40 koni z profesjonalną wentylacją, 
-              solarium i okrągłym padokiem.</p>
+              <p>Murowane boksy dla 30 koni.</p>
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Zaplecze</h3>
-              <p>Szatnie, pomieszczenia socjalne, przechowalnia sprzętu i siodlarnia.</p>
+              <p>Paszarnia i siodlarnia oraz pomieszczenie socjalne</p>
             </div>
           </div>
 
-          <h2 className="text-2xl font-semibold mb-4 mt-8">Nasze konie</h2>
-          <p className="mb-6 text-gray-700">
-            W naszej stajni znajduje się 25 koni szkoleniowych różnych ras i poziomów 
-            wyszkolenia. Mamy konie odpowiednie zarówno dla początkujących jeźdźców, 
-            jak i dla zaawansowanych zawodników startujących w zawodach. Wszystkie konie 
-            są regularnie badane weterynaryjnie i otrzymują najwyższej klasy opiekę.
-          </p>
-
-          <h2 className="text-2xl font-semibold mb-4">Obszary działania</h2>
+          <h2 className="text-2xl font-semibold mb-4 mt-8">Obszary działania</h2>
           <div className="space-y-4 text-gray-700">
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Sport wyczynowy</h3>
-              <p>Szkolenie zawodników w dyscyplinach: WKKW (skoki), ujeżdżenie i eventing. 
-              Organizacja startów w zawodach krajowych i międzynarodowych.</p>
+              <p>Szkolenie zawodników w dyscyplinie skoki przez przeszkody. Organizacja startów w zawodach krajowych i międzynarodowych.</p>
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Nauka jazdy konnej</h3>
-              <p>Profesjonalne lekcje jazdy konnej dla dzieci, młodzieży i dorosłych 
-              na wszystkich poziomach zaawansowania.</p>
+              <p>Profesjonalne lekcje jazdy konnej dla młodzieży i dorosłych na wszystkich poziomach zaawansowania.</p>
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Obozy i warsztaty</h3>
-              <p>Organizacja obozów jeździeckich, warsztatów tematycznych i szkoleń 
-              z zakresu hipologii i dobrostanu koni.</p>
+              <p>Możliwość Organizacji klinik jeździeckich, warsztatów tematycznych i szkoleń z zakresu hipologii i dobrostanu koni.</p>
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Zawody i eventy</h3>
-              <p>Organizacja zawodów jeździeckich, pokazów i eventów promujących 
-              jeździectwo i kulturę końską.</p>
+              <p>Organizacja zawodów jeździeckich, pokazów i eventów promujących jeździectwo i kulturę końską.</p>
             </div>
           </div>
         </div>

@@ -1,16 +1,28 @@
 import { Outlet, Link, useLocation } from "react-router";
 import { Download, Menu, X } from "lucide-react";
 import { useState } from "react";
+import { FaCopy } from "react-icons/fa";
 
 export function Layout() {
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const email = "funcjacja.grzegorza.kubiaka@gmail.com";
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(email);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error("Failed to copy:", err);
+    }
+  };
 
   const navigation = [
     { name: "Strona główna", href: "/" },
     { name: "O Fundacji", href: "/o-fundacji" },
     { name: "O Fundatorze", href: "/o-fundatorze" },
-    { name: "Nasza misja", href: "/nasza-misja" },
     { name: "Nasze zawodniczki", href: "/nasze-zawodniczki" },
     { name: "Osiągnięcia", href: "/osiagniecia" },
     { name: "Plany startowe", href: "/plany-startowe" },
@@ -19,9 +31,7 @@ export function Layout() {
 
   const documents = [
     { name: "Statut Fundacji", url: "#" },
-    { name: "KRS", url: "#" },
-    { name: "Sprawozdanie finansowe 2025", url: "#" },
-    { name: "Regulamin Klubu", url: "#" },
+    { name: "Wniosek o Zmianę Barw Klubowych", url: "#" }
   ];
 
   return (
@@ -33,13 +43,13 @@ export function Layout() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
               <img
-                src="https://images.unsplash.com/photo-1723406225488-00dac3cd980a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob3JzZSUyMHBvcnRyYWl0JTIwYmVhdXRpZnVsfGVufDF8fHx8MTc3MjA0NzEwNnww&ixlib=rb-4.1.0&q=80&w=1080"
+                src="/pages/logo.png"
                 alt="Logo Fundacji"
                 className="h-12 w-12 object-cover rounded-full"
               />
               <div>
-                <div className="font-semibold text-lg">Fundacja Jeździecka</div>
-                <div className="text-sm text-gray-600">Klub Sportowy - Pasja i Mistrzostwo</div>
+                <div className="font-semibold text-lg">Fundacja Grzegorza Kubiaka</div>
+                <div className="text-sm text-gray-600">Klub Sportowy - Rozwój i Pasja</div>
               </div>
             </Link>
 
@@ -125,28 +135,52 @@ export function Layout() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h4 className="font-semibold mb-3">Fundacja Jeździecka</h4>
+              <h4 className="font-semibold mb-3">Fundacja Grzegorza Kubiaka</h4>
               <p className="text-sm text-gray-400">
-                Klub Sportowy rozwijający jeździectwo wyczynowe i rekreacyjne.
+                Klub Sportowy - Rozwój i Pasja.
               </p>
             </div>
             <div>
               <h4 className="font-semibold mb-3">Kontakt</h4>
               <p className="text-sm text-gray-400">
-                Email: kontakt@fundacjajezdziecka.pl<br />
-                Tel: +48 123 456 789
+                Email:{" "} <a href={`mailto:${email}`} className="hover:underline" rel="noopener noreferrer">{email}</a>
+                <button
+                  onClick={handleCopy}
+                  className="ml-2 inline-flex items-center hover:text-gray-700"
+                  type="button"
+              >
+                <FaCopy />
+                </button>
+                {copied && <div
+                    className={`fixed bottom-6 left-1/2 -translate-x-1/2 
+        backdrop-blur-sm
+        bg-white/90
+        border border-green-500
+        text-green-700
+        px-6 py-3
+        rounded-xl
+        shadow-lg
+        transition-all duration-300 ease-in-out
+        ${copied ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"}`}
+                >
+                  Skopiowano!
+                </div>} <br />
+                Tel: +48 601 896 618 <br />
+                KRS: 0000794416<br />
+                REGON: 385 290 490<br />
               </p>
             </div>
             <div>
               <h4 className="font-semibold mb-3">Adres</h4>
               <p className="text-sm text-gray-400">
-                ul. Stadnina 15<br />
-                05-850 Ożarów Mazowiecki
+                ul. Włoska<br />
+                05-500 Siedliska <br />
+                <a href={"https://maps.app.goo.gl/YisXwTefajyJnei7A"} className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">Google Maps</a>
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-6 text-center text-sm text-gray-400">
-            © {new Date().getFullYear()} Fundacja Jeździecka. Wszelkie prawa zastrzeżone.
+            © {new Date().getFullYear()} Fundacja Grzegorza Kubiaka. Wszelkie prawa zastrzeżone.
           </div>
         </div>
       </footer>

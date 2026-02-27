@@ -7,14 +7,14 @@ export function Home() {
       {/* Hero Section */}
       <section className="relative h-[500px] bg-gray-900">
         <img
-          src="https://images.unsplash.com/photo-1568910866193-8240a89e9648?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob3JzZSUyMGp1bXBpbmclMjBjb21wZXRpdGlvbiUyMHNob3d8ZW58MXx8fHwxNzcyMDQ3MTA0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+          src="/pages/homeBanner.png"
           alt="Horse Jumping"
           className="absolute inset-0 w-full h-full object-cover opacity-60"
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
           <div className="text-white max-w-2xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Fundacja Jeździecka - Klub Sportowy
+              Fundacja Grzegorza Kubiaka - Klub Sportowy
             </h1>
             <p className="text-xl mb-8">
               Rozwijamy talenty jeździeckie, tworzymy przyszłych mistrzów. 
