@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fundacjagrzegorzakubiaka.pl/sitemap.xml
