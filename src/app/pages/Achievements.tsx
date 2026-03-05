@@ -6,17 +6,17 @@ export function Achievements() {
       year: 2026,
       achievements: [
         {
-          icon: Trophy,
-          title: "Grand Prix Sopot Winter Show",
-          description: "Julia Nowak - 1. miejsce w konkursie wysokości 140cm",
-          date: "Luty 2026"
+          icon: Medal,
+          title: "Halowy Puchar Warszawy i Mazowsza w skokach DK",
+          description: "miejsca I - IV",
+          date: "Aromer, Luty 2026"
         },
         {
-          icon: Medal,
-          title: "Halowe Mistrzostwa Polski Juniorów",
-          description: "Oliwia Kowalczyk - Srebrny medal w skokach przez przeszkody",
-          date: "Luty 2026"
-        }
+          icon: Trophy,
+          title: "Zawody Ogólnopolskie Dzieci i Młodzieży DIM",
+          description: "miejsca I - III",
+          date: "Becker Sport, Luty 2026"
+        },
       ]
     },
     {

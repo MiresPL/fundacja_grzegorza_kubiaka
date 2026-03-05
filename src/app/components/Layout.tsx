@@ -2,6 +2,7 @@ import { Outlet, Link, useLocation } from "react-router";
 import { Download, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { FaCopy } from "react-icons/fa";
+import { ScrollToTop } from "./ScrollToTop";
 
 export function Layout() {
   const location = useLocation();
@@ -36,6 +37,7 @@ export function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <ScrollToTop />
       {/* Header */}
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

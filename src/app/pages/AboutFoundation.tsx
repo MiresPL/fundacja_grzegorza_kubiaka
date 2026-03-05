@@ -51,7 +51,7 @@ export function AboutFoundation() {
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Plac zewnętrzny</h3>
-              <p>Zewnętrzna ujeżdżalnia 60m x 80m oraz tor przeszkód z możliwością budowy różnych konfiguracji.</p>
+              <p>Zewnętrzna ujeżdżalnia 55x60m oraz tor przeszkód z możliwością budowy różnych konfiguracji.</p>
             </div>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Stajnie</h3>
@@ -76,10 +76,6 @@ export function AboutFoundation() {
             <div className="bg-blue-50 p-4 rounded-lg">
               <h3 className="font-semibold mb-2">Obozy i warsztaty</h3>
               <p>Możliwość Organizacji klinik jeździeckich, warsztatów tematycznych i szkoleń z zakresu hipologii i dobrostanu koni.</p>
-            </div>
-            <div className="bg-blue-50 p-4 rounded-lg">
-              <h3 className="font-semibold mb-2">Zawody i eventy</h3>
-              <p>Organizacja zawodów jeździeckich, pokazów i eventów promujących jeździectwo i kulturę końską.</p>
             </div>
           </div>
         </div>

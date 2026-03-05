@@ -15,13 +15,18 @@ export function AboutFounder() {
             </div>
             <div className="md:w-2/3 p-8">
               <h2 className="text-2xl font-semibold mb-4">Grzegorz Kubiak</h2>
-              <p className="text-gray-600 mb-4">NIE ZNAM FUNKCJI</p>
+              <p className="text-gray-600 mb-4">Fundator</p>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  NIE MAM OPISU
+                  Urodził się 9 lutego 1963 roku w Bogusławicach. Ok. 200m od jego domu mieściło
+                  się stado ogierów. Wielu chłopców z tej miejscowości chciało spróbować swoich sił w
+                  tym sporcie, ponieważ dawało to szanse na inne, ciekawsze życie, pełne wyjazdów,
+                  podroży i przygód.
                 </p>
                 <p>
-                  NIE MAM OPISU
+                  Razem z bratem Bogdanem zaczęli regularnie trenować i
+                  wspierani przez ówczesnego dyrektora SO Bogusławice, Pana Osadzińskiego
+                  osiągali coraz lepsze wyniki.
                 </p>
               </div>
             </div>
