@@ -7,7 +7,7 @@ export function Home() {
       {/* Hero Section */}
       <section className="relative h-[500px] bg-gray-900">
         <img
-          src="/pages/homeBanner.png"
+          src="/pages/homeBanner.jpeg"
           alt="Horse Jumping"
           className="absolute inset-0 w-full h-full object-cover opacity-60"
         />

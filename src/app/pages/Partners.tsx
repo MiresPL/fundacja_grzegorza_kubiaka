@@ -1,63 +1,46 @@
-import { Handshake, Building2, Heart } from "lucide-react";
-
 export function Partners() {
   const strategicPartners = [
     {
       name: "Polski Związek Jeździecki (PZJ)",
-      type: "Partner merytoryczny",
-      description: "Współpraca w zakresie rozwoju młodych talentów jeździeckich i organizacji szkoleń trenerskich."
+      logo: "/pages/partners/image20.png",
+      // type: "Partner merytoryczny",
+      // description: "Współpraca w zakresie rozwoju młodych talentów jeździeckich i organizacji szkoleń trenerskich."
     },
     {
-      name: "Stadnina Koni Janów Podlaski",
-      type: "Partner hodowlany",
-      description: "Wsparcie w dostępie do wysokiej klasy koni sportowych oraz wymiana doświadczeń hodowlanych."
-    },
-    {
-      name: "Bank Hipoteczny S.A.",
-      type: "Partner główny",
-      description: "Sponsoring stypendiów sportowych, organizacji obozów treningowych i modernizacji infrastruktury."
+      name: "Warszawsko-Mazowiecki Związek Jeździecki (WMZJ)",
+      logo: "/pages/partners/image19.png",
+      // type: "Partner hodowlany",
+      // description: "Wsparcie w dostępie do wysokiej klasy koni sportowych oraz wymiana doświadczeń hodowlanych."
     }
   ];
 
   const sponsors = [
-    "Cavallo Poland - odzież jeździecka",
-    "Kieffer - siodła i ogłowia",
-    "Equestro - karma dla koni",
-    "Podkowy Max - usługi kowalskie",
-    "VetHorse - opieka weterynaryjna",
-    "HorseTransport - transport koni",
-    "Equus Hotel & SPA",
-    "Arena Sport - nawierzchnie"
+    { name: "Koński Świat", logo: "/pages/partners/image16.jpeg" },
+    { name: "Fundacja Studencka \"Młodzi-Młodszym\"", logo: "/pages/partners/image17.png" },
+    { name: "Chrupka", logo: "/pages/partners/image18.jpeg" },
   ];
 
-  const friends = [
+  const mdColsClassMap = {
+    1: "md:grid-cols-1",
+    2: "md:grid-cols-2",
+    3: "md:grid-cols-3",
+    4: "md:grid-cols-4",
+    5: "md:grid-cols-5"
+  } as const;
+
+  const getMdColsClass = (count: number, max: 1 | 2 | 3 | 4 | 5) => {
+    const normalized = Math.min(Math.max(count, 1), max) as 1 | 2 | 3 | 4 | 5;
+    return mdColsClassMap[normalized];
+  };
+
+  /*const friends = [
     {
-      name: "Stajnia pod Lasem - Konstancin",
-      support: "Współpraca w organizacji obozów i wymiana doświadczeń szkoleniowych"
-    },
-    {
-      name: "Ośrodek Jeździecki Equus - Warszawa",
-      support: "Udostępnienie infrastruktury do treningów i zawodów"
-    },
-    {
-      name: "Fundacja Koń na Medal",
-      support: "Współpraca w projektach społecznych związanych z jeździectwem"
-    },
-    {
-      name: "Wydział Medycyny Weterynaryjnej SGGW",
-      support: "Wsparcie weterynaryjne i edukacja w zakresie zdrowia koni"
-    },
-    {
-      name: "Stowarzyszenie Trenerów Jeździectwa",
-      support: "Szkolenia i certyfikacja dla naszej kadry trenerskiej"
-    },
-    {
-      name: "Ośrodek Hippoterapii Konik",
-      support: "Wymiana doświadczeń w zakresie terapii z udziałem koni"
+      name: "Test",
+      support: "Test"
     }
-  ];
+  ];*/
 
-  const benefits = [
+  /*const benefits = [
     {
       icon: Building2,
       title: "Dla firm",
@@ -84,7 +67,7 @@ export function Partners() {
         "Udział w wydarzeniach fundacji"
       ]
     }
-  ];
+  ];*/
 
   return (
     <div className="py-12">
@@ -97,15 +80,19 @@ export function Partners() {
         {/* Strategic Partners */}
         <section className="mb-16">
           <h2 className="text-2xl font-semibold mb-6">Partnerzy strategiczni</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className={`grid grid-cols-1 ${getMdColsClass(strategicPartners.length, 3)} gap-6`}>
             {strategicPartners.map((partner, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                  <Handshake className="h-6 w-6 text-blue-600" />
+              <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow text-center">
+                <div className="h-28 bg-gray-50 rounded-lg p-4 flex items-center justify-center mb-4">
+                  <img
+                    src={partner.logo}
+                    alt={`Logo ${partner.name}`}
+                    className="max-h-full max-w-full object-contain"
+                  />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">{partner.name}</h3>
-                <p className="text-sm text-blue-600 mb-3">{partner.type}</p>
-                <p className="text-sm text-gray-700">{partner.description}</p>
+                <h3 className="font-semibold text-lg">{partner.name}</h3>
+                {/* <p className="text-sm text-blue-600 mb-3">{partner.type}</p> */}
+                {/* <p className="text-sm text-gray-700">{partner.description}</p> */}
               </div>
             ))}
           </div>
@@ -115,18 +102,17 @@ export function Partners() {
         <section className="mb-16">
           <h2 className="text-2xl font-semibold mb-6">Sponsorzy</h2>
           <div className="bg-gray-50 rounded-lg p-8">
-            <p className="text-gray-700 mb-6">
-              Dziękujemy naszym sponsorom za wsparcie finansowe i rzeczowe. Dzięki nim możemy 
-              zapewnić naszym zawodniczkom i koniom najlepsze warunki treningowe oraz sprzęt 
-              na najwyższym poziomie.
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div className={`grid grid-cols-2 sm:grid-cols-3 ${getMdColsClass(sponsors.length, 5)} gap-6`}>
               {sponsors.map((sponsor, index) => (
-                <div 
-                  key={index} 
-                  className="bg-white rounded-lg p-4 flex items-center justify-center min-h-[100px] shadow-sm hover:shadow-md transition-shadow"
+                <div
+                  key={index}
+                  className="bg-white rounded-lg p-4 flex items-center justify-center min-h-[110px] shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <span className="font-semibold text-gray-800 text-center text-sm">{sponsor}</span>
+                  <img
+                    src={sponsor.logo}
+                    alt={`Logo ${sponsor.name}`}
+                    className="max-h-16 max-w-full object-contain"
+                  />
                 </div>
               ))}
             </div>
@@ -134,7 +120,7 @@ export function Partners() {
         </section>
 
         {/* Friends */}
-        <section className="mb-16">
+        {/*<section className="mb-16">
           <h2 className="text-2xl font-semibold mb-6">Przyjaciele Fundacji</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {friends.map((friend, index) => (
@@ -144,10 +130,10 @@ export function Partners() {
               </div>
             ))}
           </div>
-        </section>
+        </section>*/}
 
         {/* Benefits */}
-        <section className="mb-16">
+        {/*<section className="mb-16">
           <h2 className="text-2xl font-semibold mb-6">Korzyści dla partnerów</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {benefits.map((benefit, index) => {
@@ -172,10 +158,10 @@ export function Partners() {
               );
             })}
           </div>
-        </section>
+        </section>*/}
 
         {/* Sponsorship Packages */}
-        <section className="mb-16">
+        {/*<section className="mb-16">
           <h2 className="text-2xl font-semibold mb-6">Pakiety sponsorskie</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg shadow-lg p-6 border-t-4 border-amber-500">
@@ -212,7 +198,7 @@ export function Partners() {
               </ul>
             </div>
           </div>
-        </section>
+        </section>*/}
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-12 text-white text-center">
@@ -223,13 +209,13 @@ export function Partners() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:partnerzy@fundacjajezdziecka.pl"
+              href="mailto:funcjacja.grzegorza.kubiaka@gmail.com"
               className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg hover:bg-gray-100 transition-colors font-semibold"
             >
               Skontaktuj się z nami
             </a>
             <a
-              href="#"
+              href="/downloads/Fundacja_Grzegorz_Kubiak-propozycja_współpracy.pdf"
               className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white/10 transition-colors font-semibold"
             >
               Pobierz ofertę współpracy (PDF)
@@ -238,39 +224,31 @@ export function Partners() {
         </section>
 
         {/* Why Support */}
-        <section className="mt-16 bg-gray-50 rounded-lg p-8">
+        {/*<section className="mt-16 bg-gray-50 rounded-lg p-8">
           <h2 className="text-2xl font-semibold mb-6">Dlaczego warto nas wspierać?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="font-semibold text-blue-600 mb-3">Transparentność</h3>
+              <h3 className="font-semibold text-blue-600 mb-3"></h3>
               <p className="text-gray-700 text-sm">
-                Regularnie publikujemy sprawozdania finansowe i raporty z działalności. 
-                Każda złotówka jest dokładnie rozliczana i wykorzystywana zgodnie z celami statutowymi.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold text-blue-600 mb-3">Realne efekty</h3>
+              <h3 className="font-semibold text-blue-600 mb-3"></h3>
               <p className="text-gray-700 text-sm">
-                Nasze zawodniczki regularnie zdobywają medale i reprezentują Polskę na 
-                arenie międzynarodowej. Twoje wsparcie przekłada się na wymierne sukcesy sportowe.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold text-blue-600 mb-3">Doświadczenie</h3>
+              <h3 className="font-semibold text-blue-600 mb-3"></h3>
               <p className="text-gray-700 text-sm">
-                Działamy od 2012 roku i mamy sprawdzony model współpracy z partnerami. 
-                Wiemy, jak dbać o wizerunek naszych sponsorów i partnerów biznesowych.
               </p>
             </div>
             <div>
-              <h3 className="font-semibold text-blue-600 mb-3">Rozw��j sportu</h3>
+              <h3 className="font-semibold text-blue-600 mb-3"></h3>
               <p className="text-gray-700 text-sm">
-                Wspierając nas, inwestujesz w przyszłość polskiego jeździectwa i rozwijasz 
-                dyscyplinę sportową, która łączy tradycję z nowoczesnością.
               </p>
             </div>
           </div>
-        </section>
+        </section>*/}
 
         {/* Thank You */}
         <section className="mt-16 text-center">
@@ -280,7 +258,7 @@ export function Partners() {
             ich jeździeckie marzenia i reprezentować Polskę na międzynarodowych parkurach!
           </p>
           <p className="text-lg text-gray-600 mt-4 italic">
-            - Zespół Fundacji Jeździeckiej
+            - Zespół Fundacji Grzegorza Kubiaka
           </p>
         </section>
       </div>

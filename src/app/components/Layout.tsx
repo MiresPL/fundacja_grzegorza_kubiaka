@@ -1,7 +1,7 @@
 import { Outlet, Link, useLocation } from "react-router";
 import { Download, Menu, X } from "lucide-react";
 import { useState } from "react";
-import { FaCopy } from "react-icons/fa";
+import { FaCopy, FaInstagram } from "react-icons/fa";
 import { ScrollToTop } from "./ScrollToTop";
 
 export function Layout() {
@@ -26,13 +26,18 @@ export function Layout() {
     { name: "O Fundatorze", href: "/o-fundatorze" },
     { name: "Nasze zawodniczki", href: "/nasze-zawodniczki" },
     { name: "Osiągnięcia", href: "/osiagniecia" },
-    { name: "Plany startowe", href: "/plany-startowe" },
     { name: "Partnerzy", href: "/partnerzy" },
   ];
 
   const documents = [
-    { name: "Statut Fundacji", url: "#" },
-    { name: "Wniosek o Zmianę Barw Klubowych", url: "#" }
+    {
+      name: "Statut Fundacji",
+      url: "/downloads/Statut_Fundacji_podpisany.pdf",
+    },
+    {
+      name: "Wniosek o Zmianę Barw Klubowych",
+      url: "/downloads/Wniosek_zmiana_barw_kubowych.docx",
+    },
   ];
 
   return (
@@ -50,8 +55,12 @@ export function Layout() {
                 className="h-12 w-12 object-cover rounded-full"
               />
               <div>
-                <div className="font-semibold text-lg">Fundacja Grzegorza Kubiaka</div>
-                <div className="text-sm text-gray-600">Klub Sportowy - Rozwój i Pasja</div>
+                <div className="font-semibold text-lg">
+                  Fundacja Grzegorza Kubiaka
+                </div>
+                <div className="text-sm text-gray-600">
+                  Klub Sportowy - Rozwój i Pasja
+                </div>
               </div>
             </Link>
 
@@ -141,19 +150,36 @@ export function Layout() {
               <p className="text-sm text-gray-400">
                 Klub Sportowy - Rozwój i Pasja.
               </p>
+              <a
+                href="https://www.instagram.com/fundacja_grzegorzakubiaka/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 inline-flex items-center gap-2 text-sm text-gray-400 hover:underline"
+              >
+                <FaInstagram className="h-4 w-4" />
+                <span>fundacja_grzegorzakubiaka</span>
+              </a>
             </div>
             <div>
               <h4 className="font-semibold mb-3">Kontakt</h4>
               <p className="text-sm text-gray-400">
-                Email:{" "} <a href={`mailto:${email}`} className="hover:underline" rel="noopener noreferrer">{email}</a>
+                Email:{" "}
+                <a
+                  href={`mailto:${email}`}
+                  className="hover:underline"
+                  rel="noopener noreferrer"
+                >
+                  {email}
+                </a>
                 <button
                   onClick={handleCopy}
-                  className="ml-2 inline-flex items-center hover:text-gray-700"
+                  className="ml-2 inline-flex items-center cursor-pointer hover:text-gray-700 transition-colors"
                   type="button"
-              >
-                <FaCopy />
+                >
+                  <FaCopy />
                 </button>
-                {copied && <div
+                {copied && (
+                  <div
                     className={`fixed bottom-6 left-1/2 -translate-x-1/2 
         backdrop-blur-sm
         bg-white/90
@@ -164,25 +190,39 @@ export function Layout() {
         shadow-lg
         transition-all duration-300 ease-in-out
         ${copied ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"}`}
-                >
-                  Skopiowano!
-                </div>} <br />
+                  >
+                    Skopiowano!
+                  </div>
+                )}{" "}
+                <br />
                 Tel: +48 601 896 618 <br />
-                KRS: 0000794416<br />
-                REGON: 385 290 490<br />
+                KRS: 0001221898
+                <br />
+                REGON: 543 904 132
+                <br />
               </p>
             </div>
             <div>
               <h4 className="font-semibold mb-3">Adres</h4>
               <p className="text-sm text-gray-400">
-                ul. Włoska<br />
-                05-500 Siedliska <br />
-                <a href={"https://maps.app.goo.gl/YisXwTefajyJnei7A"} className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">Google Maps</a>
+                ul. Kamienna 16
+                <br />
+                05-510 Siedliska
+                <br />
+                <a
+                  href={"https://maps.app.goo.gl/YisXwTefajyJnei7A"}
+                  className="text-blue-400 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Google Maps
+                </a>
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-6 text-center text-sm text-gray-400">
-            © {new Date().getFullYear()} Fundacja Grzegorza Kubiaka. Wszelkie prawa zastrzeżone.
+            © {new Date().getFullYear()} Fundacja Grzegorza Kubiaka. Wszelkie prawa
+            zastrzeżone.
           </div>
         </div>
       </footer>
