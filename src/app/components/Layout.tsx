@@ -9,7 +9,7 @@ export function Layout() {
     const location = useLocation();
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [copied, setCopied] = useState(false);
-    const email = "funcjacja.grzegorza.kubiaka@gmail.com";
+    const email = "fundacja.grzegorza.kubiaka@gmail.com";
 
     const handleCopy = async () => {
         try {
