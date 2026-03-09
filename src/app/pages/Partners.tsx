@@ -18,6 +18,7 @@ export function Partners() {
     { name: "Koński Świat", logo: "/pages/partners/image16.jpeg" },
     { name: "Fundacja Studencka \"Młodzi-Młodszym\"", logo: "/pages/partners/image17.png" },
     { name: "Chrupka", logo: "/pages/partners/image18.jpeg" },
+    { name: "OverHorse", logo: "/pages/partners/overHorse.png" },
   ];
 
   const mdColsClassMap = {
