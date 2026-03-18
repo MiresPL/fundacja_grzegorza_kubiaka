@@ -48,11 +48,11 @@ export function Athletes() {
       image: "/pages/athletes/image21.jpg",
       imagePositionClass: "object-top"
     },
-    {
+    /*{
       id: 10,
       image: "/pages/athletes/image25.jpg",
       imagePositionClass: "object-top"
-    },
+    },*/
   ];
 
   return (
