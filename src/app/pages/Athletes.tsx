@@ -53,6 +53,11 @@ export function Athletes() {
       image: "/pages/athletes/image25.jpg",
       imagePositionClass: "object-top"
     },*/
+    {
+      id: 11,
+      image: "/pages/athletes/image26.JPG",
+      imagePositionClass: "object-top"
+    }
   ];
 
   return (
