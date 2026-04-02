@@ -24,4 +24,8 @@
         <loc>https://fundacjagrzegorzakubiaka.pl/partnerzy</loc>
         <priority>0.6</priority>
     </url>
+    <url>
+        <loc>https://fundacjagrzegorzakubiaka.pl/szkolenia-kliniki</loc>
+        <priority>0.6</priority>
+    </url>
 </urlset>
