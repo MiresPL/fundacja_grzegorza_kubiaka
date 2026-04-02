@@ -135,7 +135,7 @@ export function TrainingsClinic() {
             Skontaktuj się z nami, aby dowiedzieć się więcej szczegółów, dostępności miejsc i warunków uczestnictwa.
           </p>
           <a
-            href="mailto:info@fundacja.pl"
+            href="mailto:info@fundacja.grzegorza.kubiaka@gmail.com"
             className="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
           >
             Napisz do nas

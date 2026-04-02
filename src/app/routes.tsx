@@ -18,8 +18,8 @@ export const router = createBrowserRouter([
             { path: "o-fundatorze", Component: AboutFounder },
             { path: "nasze-zawodniczki", Component: Athletes },
             { path: "osiagniecia", Component: Achievements },
-            { path: "partnerzy", Component: Partners },
             { path: "szkolenia-kliniki", Component: TrainingsClinic },
+            { path: "partnerzy", Component: Partners }
         ],
     },
 ]);
