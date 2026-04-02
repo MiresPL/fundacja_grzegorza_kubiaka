@@ -27,6 +27,7 @@ export function Layout() {
         {name: "O Fundatorze", href: "/o-fundatorze"},
         {name: "Nasze zawodniczki", href: "/nasze-zawodniczki"},
         {name: "Osiągnięcia", href: "/osiagniecia"},
+        {name: "Szkolenia i Kliniki", href: "/szkolenia-kliniki"},
         {name: "Partnerzy", href: "/partnerzy"},
     ];
 

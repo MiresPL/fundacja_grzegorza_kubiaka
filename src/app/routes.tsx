@@ -6,6 +6,7 @@ import { AboutFounder } from "./pages/AboutFounder";
 import { Athletes } from "./pages/Athletes";
 import { Achievements } from "./pages/Achievements";
 import { Partners } from "./pages/Partners";
+import { TrainingsClinic } from "./pages/TrainingsClinic";
 
 export const router = createBrowserRouter([
     {
@@ -18,6 +19,7 @@ export const router = createBrowserRouter([
             { path: "nasze-zawodniczki", Component: Athletes },
             { path: "osiagniecia", Component: Achievements },
             { path: "partnerzy", Component: Partners },
+            { path: "szkolenia-kliniki", Component: TrainingsClinic },
         ],
     },
 ]);
