@@ -6,10 +6,10 @@ export function TrainingsClinic() {
   const trainings = [
     {
       id: 1,
-      title: "Klinika pod patronatem fundacji oraz Salonu Koński Świat",
+      title: "Klinika pod patronatem Fundacji oraz Salonu Koński Świat",
       description: "",
       fullText: "I Klinika szkoleniowa pod patronatem Fundacji Grzegorza Kubiaka Rozwój i Pasja" +
-          "oraz Salonu Koński Świat odbyła się w dniach 21-22 marca 2026 r. w Stajni Don" +
+          " oraz Salonu Koński Świat odbyła się w dniach 21-22 marca 2026 r. w Stajni Don" +
           "Camillo w Konopiskach k/Częstochowy." +
           "\n\n" +
           "Treningi prowadził Grzegorz Kubiak." +
