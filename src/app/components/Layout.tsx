@@ -29,6 +29,7 @@ export function Layout() {
         {name: "Osiągnięcia", href: "/osiagniecia"},
         {name: "Szkolenia i Kliniki", href: "/szkolenia-kliniki"},
         {name: "Partnerzy", href: "/partnerzy"},
+        {name: "Media o Nas", href: "/media-o-nas"},
     ];
 
     const documents = [
@@ -48,31 +49,31 @@ export function Layout() {
             {/* Header */}
             <header className="bg-white shadow-sm sticky top-0 z-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex justify-between items-center py-4">
+                    <div className="flex justify-between items-center py-3">
                         {/* Logo */}
-                        <Link to="/" className="flex items-center gap-3">
+                        <Link to="/" className="flex items-center gap-2 min-w-fit">
                             <img
                                 src="/pages/logo.png"
                                 alt="Logo Fundacji"
-                                className="h-12 w-12 object-cover rounded-full"
+                                className="h-10 w-10 object-cover rounded-full"
                             />
-                            <div>
-                                <div className="font-semibold text-lg">
+                            <div className="hidden sm:block">
+                                <div className="font-semibold text-sm md:text-base">
                                     Fundacja Grzegorza Kubiaka - Rozwój i Pasja
                                 </div>
-                                <div className="text-sm text-gray-600">
+                                <div className="text-xs text-gray-600">
                                     Klub Sportowy
                                 </div>
                             </div>
                         </Link>
 
                         {/* Desktop Navigation */}
-                        <nav className="hidden lg:flex items-center gap-6">
+                        <nav className="hidden lg:flex items-center gap-4">
                             {navigation.map((item) => (
                                 <Link
                                     key={item.href}
                                     to={item.href}
-                                    className={`text-sm transition-colors ${
+                                    className={`text-xs lg:text-sm whitespace-nowrap transition-colors ${
                                         location.pathname === item.href
                                             ? "text-blue-600 font-semibold"
                                             : "text-gray-700 hover:text-blue-600"

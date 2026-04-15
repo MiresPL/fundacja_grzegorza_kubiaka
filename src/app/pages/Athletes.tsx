@@ -48,15 +48,18 @@ export function Athletes() {
       image: "/pages/athletes/image21.jpg",
       imagePositionClass: "object-top"
     },
-    /*{
+    {
       id: 10,
-      image: "/pages/athletes/image25.jpg",
+      image: "/pages/athletes/image26.jpg",
       imagePositionClass: "object-top"
-    },*/
+    },
     {
       id: 11,
-      image: "/pages/athletes/image26.JPG",
-      imagePositionClass: "object-top"
+      image: "/pages/athletes/image27.jpg"
+    },
+    {
+      id: 12,
+      image: "/pages/athletes/image28.jpg"
     }
   ];
 

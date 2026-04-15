@@ -7,6 +7,7 @@ import { Athletes } from "./pages/Athletes";
 import { Achievements } from "./pages/Achievements";
 import { Partners } from "./pages/Partners";
 import { TrainingsClinic } from "./pages/TrainingsClinic";
+import { MediaAboutUs } from "./pages/MediaAboutUs";
 
 export const router = createHashRouter([
     {
@@ -19,7 +20,8 @@ export const router = createHashRouter([
             { path: "nasze-zawodniczki", Component: Athletes },
             { path: "osiagniecia", Component: Achievements },
             { path: "szkolenia-kliniki", Component: TrainingsClinic },
-            { path: "partnerzy", Component: Partners }
+            { path: "partnerzy", Component: Partners },
+            { path: "media-o-nas", Component: MediaAboutUs }
         ],
     },
 ]);

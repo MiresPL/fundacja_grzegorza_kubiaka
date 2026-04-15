@@ -3,23 +3,41 @@ export function Partners() {
     {
       name: "Polski Związek Jeździecki (PZJ)",
       logo: "/pages/partners/image20.png",
-      // type: "Partner merytoryczny",
-      // description: "Współpraca w zakresie rozwoju młodych talentów jeździeckich i organizacji szkoleń trenerskich."
+      url: "https://pzj.pl/"
     },
     {
       name: "Warszawsko-Mazowiecki Związek Jeździecki (WMZJ)",
       logo: "/pages/partners/image19.png",
-      // type: "Partner hodowlany",
-      // description: "Wsparcie w dostępie do wysokiej klasy koni sportowych oraz wymiana doświadczeń hodowlanych."
+      url: "https://wmzj.waw.pl/"
     }
   ];
 
   const sponsors = [
-    { name: "Koński Świat", logo: "/pages/partners/image16.jpeg" },
-    { name: "Fundacja Studencka \"Młodzi-Młodszym\"", logo: "/pages/partners/image17.png" },
-    { name: "Chrupka", logo: "/pages/partners/image18.jpeg" },
-    { name: "OverHorse", logo: "/pages/partners/overHorse.png" },
-    { name: "Winderen", logo: "/pages/partners/winderen.PNG" },
+    {
+      name: "Koński Świat",
+      logo: "/pages/partners/image16.jpeg",
+      url: "https://salonkonskiswiat.pl/"
+    },
+    {
+      name: "Fundacja Studencka \"Młodzi-Młodszym\"",
+      logo: "/pages/partners/image17.png",
+      url: "https://fsmm.pl/"
+    },
+    {
+      name: "Chrupka",
+      logo: "/pages/partners/image18.jpeg",
+      url: "https://chrupka.pl/"
+    },
+    {
+      name: "OverHorse",
+      logo: "/pages/partners/overHorse.png",
+      url: "https://over-horse.com/"
+    },
+    {
+      name: "Winderen",
+      logo: "/pages/partners/winderen.PNG",
+      url: "https://www.winderen.com"
+    },
   ];
 
   const mdColsClassMap = {
@@ -84,7 +102,13 @@ export function Partners() {
           <h2 className="text-2xl font-semibold mb-6">Partnerzy strategiczni</h2>
           <div className={`grid grid-cols-1 ${getMdColsClass(strategicPartners.length, 3)} gap-6`}>
             {strategicPartners.map((partner, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow text-center">
+              <a
+                key={index}
+                href={partner.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow text-center cursor-pointer"
+              >
                 <div className="h-28 bg-gray-50 rounded-lg p-4 flex items-center justify-center mb-4">
                   <img
                     src={partner.logo}
@@ -93,9 +117,7 @@ export function Partners() {
                   />
                 </div>
                 <h3 className="font-semibold text-lg">{partner.name}</h3>
-                {/* <p className="text-sm text-blue-600 mb-3">{partner.type}</p> */}
-                {/* <p className="text-sm text-gray-700">{partner.description}</p> */}
-              </div>
+              </a>
             ))}
           </div>
         </section>
@@ -106,101 +128,23 @@ export function Partners() {
           <div className="bg-gray-50 rounded-lg p-8">
             <div className={`grid grid-cols-2 sm:grid-cols-3 ${getMdColsClass(sponsors.length, 5)} gap-6`}>
               {sponsors.map((sponsor, index) => (
-                <div
+                <a
                   key={index}
-                  className="bg-white rounded-lg p-4 flex items-center justify-center min-h-[110px] shadow-sm hover:shadow-md transition-shadow"
+                  href={sponsor.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white rounded-lg p-4 flex items-center justify-center min-h-[110px] shadow-sm hover:shadow-lg transition-shadow cursor-pointer"
                 >
                   <img
                     src={sponsor.logo}
                     alt={`Logo ${sponsor.name}`}
                     className="max-h-16 max-w-full object-contain"
                   />
-                </div>
+                </a>
               ))}
             </div>
           </div>
         </section>
-
-        {/* Friends */}
-        {/*<section className="mb-16">
-          <h2 className="text-2xl font-semibold mb-6">Przyjaciele Fundacji</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {friends.map((friend, index) => (
-              <div key={index} className="bg-white border-2 border-blue-100 rounded-lg p-6 hover:border-blue-300 transition-colors">
-                <h3 className="font-semibold mb-2 text-blue-900">{friend.name}</h3>
-                <p className="text-sm text-gray-600">{friend.support}</p>
-              </div>
-            ))}
-          </div>
-        </section>*/}
-
-        {/* Benefits */}
-        {/*<section className="mb-16">
-          <h2 className="text-2xl font-semibold mb-6">Korzyści dla partnerów</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {benefits.map((benefit, index) => {
-              const Icon = benefit.icon;
-              return (
-                <div key={index} className="bg-blue-50 rounded-lg p-6 border-2 border-blue-200">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
-                      <Icon className="h-5 w-5 text-white" />
-                    </div>
-                    <h3 className="font-semibold text-lg">{benefit.title}</h3>
-                  </div>
-                  <ul className="space-y-2">
-                    {benefit.items.map((item, itemIndex) => (
-                      <li key={itemIndex} className="text-sm text-gray-700 flex items-start">
-                        <span className="text-blue-600 mr-2 font-bold">✓</span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              );
-            })}
-          </div>
-        </section>*/}
-
-        {/* Sponsorship Packages */}
-        {/*<section className="mb-16">
-          <h2 className="text-2xl font-semibold mb-6">Pakiety sponsorskie</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white rounded-lg shadow-lg p-6 border-t-4 border-amber-500">
-              <h3 className="font-bold text-xl mb-2 text-amber-600">Pakiet BRĄZOWY</h3>
-              <p className="text-2xl font-bold mb-4">5 000 zł/rok</p>
-              <ul className="space-y-2 text-sm text-gray-700">
-                <li>✓ Logo na stronie internetowej</li>
-                <li>✓ Wymienienie w social mediach</li>
-                <li>✓ Certyfikat partnera</li>
-                <li>✓ 2 zaproszenia na zawody</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-6 border-t-4 border-gray-400">
-              <h3 className="font-bold text-xl mb-2 text-gray-600">Pakiet SREBRNY</h3>
-              <p className="text-2xl font-bold mb-4">15 000 zł/rok</p>
-              <ul className="space-y-2 text-sm text-gray-700">
-                <li>✓ Wszystko z pakietu brązowego</li>
-                <li>✓ Logo na bandach treningowych</li>
-                <li>✓ Logo na koszulkach treningowych</li>
-                <li>✓ 5 zaproszeń VIP na zawody</li>
-                <li>✓ Możliwość eventu firmowego</li>
-              </ul>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg p-6 border-t-4 border-yellow-500">
-              <h3 className="font-bold text-xl mb-2 text-yellow-600">Pakiet ZŁOTY</h3>
-              <p className="text-2xl font-bold mb-4">30 000 zł/rok</p>
-              <ul className="space-y-2 text-sm text-gray-700">
-                <li>✓ Wszystko z pakietu srebrnego</li>
-                <li>✓ Logo na strojach zawodowych</li>
-                <li>✓ Naming rights zawodów</li>
-                <li>✓ 10 zaproszeń VIP</li>
-                <li>✓ Dedykowana kampania PR</li>
-                <li>✓ Możliwość sponsoringu konkretnej zawodniczki</li>
-              </ul>
-            </div>
-          </div>
-        </section>*/}
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-12 text-white text-center">

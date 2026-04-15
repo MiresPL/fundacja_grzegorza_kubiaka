@@ -7,6 +7,30 @@ export function Achievements() {
       achievements: [
         {
           icon: Medal,
+          title: "Zawody Ogólnopolskie w Skokach przez Przeszkody 1* CSN SO",
+          description: "III miejsce w finale Srebrnej Rundy 135 cm",
+          date: "Bogusławice, kwiecień 2026"
+        },
+        {
+          icon: Medal,
+          title: "Zawody Ogólnopolskie w Skokach przez Przeszkody 1* CSN SO",
+          description: "II miejsce w finale Brązowej Rundy 125 cm",
+          date: "Bogusławice, kwiecień 2026"
+        },
+        {
+          icon: Trophy,
+          title: "Halowe Mistrzostwa Polski w skokach",
+          description: "X miejsce w finale Juniorów 135 cm",
+          date: "Krajkowo, marzec 2026"
+        },
+        {
+          icon: Medal,
+          title: "HZO1* w skokach przez przeszkody",
+          description: "II miejsce w finale Dużej Rundy 140 cm",
+          date: "Łąck, marzec 2026"
+        },
+        {
+          icon: Medal,
           title: "Halowy Puchar Warszawy i Mazowsza w skokach DK",
           description: "miejsca I-IV",
           date: "KJ Aromer, luty 2026"
