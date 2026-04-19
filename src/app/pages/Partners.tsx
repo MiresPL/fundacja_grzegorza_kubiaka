@@ -38,6 +38,11 @@ export function Partners() {
       logo: "/pages/partners/winderen.PNG",
       url: "https://www.winderen.com"
     },
+    {
+      name: "Equi Projekt",
+      logo: "/pages/partners/equiProjekt.png",
+      url: "https://equiprojekt.pl/"
+    },
   ];
 
   const mdColsClassMap = {
