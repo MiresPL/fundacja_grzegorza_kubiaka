@@ -11,6 +11,7 @@ export function MediaAboutUs() {
           source: "Swiat Koni",
           date: "2026-04-02",
           description: "Artykuł o historii Grzegorza Kubiaka i o założeniu fundacji",
+          logo: "/pages/mediaAboutUs/swiat-koni.png",
           url: "https://www.swiatkoni.pl/fundacja-grzegorza-kubiaka-rozwoj-i-pasja-powstala-20-stycznia-2026-roku-"
         }
       ]
@@ -63,6 +64,16 @@ export function MediaAboutUs() {
                       key={itemIdx}
                       className="flex flex-col bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
                     >
+                      {/* Logo */}
+                      {item.logo && (
+                        <div className="h-32 bg-gray-100 overflow-hidden">
+                          <img
+                            src={item.logo}
+                            alt={item.source}
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                      )}
                       <div className="flex-1 p-6 flex flex-col">
                         <div className="flex items-start justify-between gap-4 mb-3">
                           <div>
