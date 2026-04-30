@@ -60,7 +60,11 @@ export function Athletes() {
     {
       id: 12,
       image: "/pages/athletes/image28.jpg"
-    }
+    },
+    {
+      id: 13,
+      image: "/pages/athletes/image29.jpg"
+    },
   ];
 
   return (
