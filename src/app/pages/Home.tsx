@@ -98,6 +98,40 @@ export function Home() {
         </div>
       </section>
 
+      {/* Banners Section */}
+      <section className="py-8 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Dodatkowe dwa elementy nad banerami (np. godło i drugi logotyp) */}
+          <div className="mb-6">
+            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-0 justify-center">
+              <img
+                src="/pages/rp-left-pl.svg"
+                alt="Godło Rzeczypospolitej Polskiej"
+                className="max-h-28 object-contain"
+              />
+              <img
+                src="/pages/godlo.jpg"
+                alt="Godło Fundacji / drugi logotyp"
+                className="max-h-28 object-contain sm:ml-1"
+              />
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 gap-8">
+            <img
+              src="/pages/baner_Aktywni Lokalnie.png"
+              alt="Aktywni Lokalnie - Ministerstwo Sportu i Turystyki - Orły Sportu Fundacja"
+              className="w-full h-auto object-cover rounded-lg"
+            />
+            <img
+              src="/pages/baner_Wielki Mistrz.jpg"
+              alt="Tworzymy polski sport - Ministerstwo Sportu i Turystyki - Fundacja Grzegorza Kubiaka"
+              className="w-full h-auto object-cover rounded-lg"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

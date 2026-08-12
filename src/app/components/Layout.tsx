@@ -28,7 +28,7 @@ export function Layout() {
         {name: "Nasze zawodniczki", href: "/nasze-zawodniczki"},
         {name: "Osiągnięcia", href: "/osiagniecia"},
         {name: "Szkolenia i Kliniki", href: "/szkolenia-kliniki"},
-        {name: "Partnerzy", href: "/partnerzy"},
+        {name: "Partnerzy i Programy", href: "/partnerzy"},
         {name: "Media o Nas", href: "/media-o-nas"},
     ];
 
@@ -68,7 +68,7 @@ export function Layout() {
                         </Link>
 
                         {/* Desktop Navigation */}
-                        <nav className="hidden lg:flex items-center gap-4">
+                        <nav className="hidden lg:flex items-center gap-3">
                             {navigation.map((item) => (
                                 <Link
                                     key={item.href}
