@@ -278,7 +278,7 @@ export function Partners() {
 
                                             {item.images.length > 0 && (
                                               <div>
-                                                <h4 className="font-semibold text-gray-900 mb-3">Galeriaa</h4>
+                                                <h4 className="font-semibold text-gray-900 mb-3">Galeria</h4>
                                                 <div className="grid grid-cols-2 gap-4">
                                                   {item.images.map((image, idx) => (
                                                     <div key={`${item.id}-${idx}`} className="rounded-lg overflow-hidden bg-gray-200 aspect-square">
