@@ -6,6 +6,96 @@ export function Achievements() {
       year: 2026,
       achievements: [
         {
+          icon: Trophy,
+          title: "Zawody Ogólnopolskie 2* CSN, IV Etap Polska Liga Jeździecka i ZRiT w Skokach przez Przeszkody",
+          description: "I miejsce",
+          date: "SO w Bogusławicach, 16-19 lipca 2026"
+        },
+        {
+          icon: Medal,
+          title: "Zawody Ogólnopolskie 2** + Zawody Regionalne i Towarzyskie",
+          description: "VII miejsce",
+          date: "Kozłów, 3-5 lipca 2026"
+        },
+        {
+          icon: Medal,
+          title: "Zawody Ogólnopolskie 2** + Zawody Regionalne i Towarzyskie",
+          description: "V miejsce",
+          date: "Kozłów, 3-5 lipca 2026"
+        },
+        {
+          icon: Trophy,
+          title: "ZO2* PLJ ZRiT w skokach przez przeszkody",
+          description: "I miejsce",
+          date: "Gościszów, 26-28 czerwca 2026"
+        },
+        {
+          icon: Medal,
+          title: "Mistrzostwa Warszawy i Mazowsza w skokach przez przeszkody",
+          description: "VIII miejsce w Finale",
+          date: "Sielanka Warka, 18-21 czerwca 2026"
+        },
+        {
+          icon: Medal,
+          title: "Mistrzostwa Warszawy i Mazowsza w skokach przez przeszkody",
+          description: "II miejsce, I półfinał kat. Młody Jeździec N - 120 cm",
+          date: "Sielanka Warka, 18-21 czerwca 2026"
+        },
+        {
+          icon: Trophy,
+          title: "ZO1* i ZRiT w Skokach przez Przeszkody",
+          description: "I miejsce 130 cm",
+          date: "Stajnia Quando Jeżów, 5-7 czerwca 2026"
+        },
+        {
+          icon: Medal,
+          title: "ZO1* i ZRiT w Skokach przez Przeszkody",
+          description: "II miejsce 120 cm",
+          date: "Stajnia Quando Jeżów, 5-7 czerwca 2026"
+        },
+        {
+          icon: Trophy,
+          title: "ZO1* i ZRiT w Skokach przez Przeszkody",
+          description: "I miejsce 120 cm",
+          date: "Stajnia Quando Jeżów, 5-7 czerwca 2026"
+        },
+        {
+          icon: Medal,
+          title: "Jumping Show - Zawody Regionalne i Towarzyskie w skokach przez przeszkody",
+          description: "Uzyskanie licencji sportowej III stopnia przez zawodniczkę Klubu",
+          date: "16-17 maja 2026"
+        },
+        {
+          icon: Medal,
+          title: "Zawody Ogólnopolskie 2* Polska Liga Jeździecka",
+          description: "III miejsce 120 cm",
+          date: "8-10 maja 2026"
+        },
+        {
+          icon: Trophy,
+          title: "Zawody Ogólnopolskie 2* Polska Liga Jeździecka",
+          description: "I miejsce 120 cm",
+          date: "8-10 maja 2026"
+        },
+        {
+          icon: Medal,
+          title: "Jeździecka Majówka, X Memoriał Marcina Klupsia, ZO-2* PLJ + ZR",
+          description: "II miejsce 110 cm",
+          date: "30 kwietnia - 3 maja 2026"
+        },
+        {
+          icon: Medal,
+          title: "ZR 130 cm",
+          description: "II miejsce",
+          date: "Bobrowy Staw, 2-3 maja 2026"
+        },
+        {
+          icon: Trophy,
+          title: "ZR 130 cm",
+          description: "I miejsce",
+          date: "Bobrowy Staw, 2-3 maja 2026"
+        },
+        {
           icon: Medal,
           title: "Zawody Ogólnopolskie w Skokach przez Przeszkody 1* CSN SO",
           description: "III miejsce w finale Srebrnej Rundy 135 cm",
