@@ -253,8 +253,26 @@ export function Partners() {
             {
               id: "wm-1-a",
               title: "Rozmowy z Mistrzem w Viart Kampinos",
-              fullText: "Fundamentalne umiejętności w skakaniu przez przeszkody",
-              images: [],
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki Wielki Mistrz w stajni ViArt Kampinos odbyła się lekcja z Mistrzem na temat rodzajów wędzideł.\n" +
+                  "Podczas lekcji w stajni Grzegorz Kubiak zaprezentował  różne rodzaje wędzideł stosowanych u koni oraz opowiedział jakie mają zastosowanie. Wędzidło jest elementem ogłowia, który znajduje się w pysku konia i za pomocą wodzy umożliwia jeźdźcowi przekazywanie sygnałów.\n" +
+                  "\n" +
+                  "Na początku Trener omówił podstawowe rodzaje wędzideł. Poznaliśmy między innymi wędzidła pojedynczo łamane, podwójnie łamane oraz proste. Dowiedzieliśmy się, że różnią się one budową, sposobem działania i siłą nacisku. Zwróciliśmy również uwagę na materiał, z którego są wykonane  oraz na ich odpowiedni rozmiar.\n" +
+                  "\n" +
+                  "Podczas zajęć nauczyliśmy się, że wybór wędzidła powinien być dopasowany do konkretnego konia, jego budowy pyska, wyszkolenia i wrażliwości. Ważne jest również prawidłowe dopasowanie wędzidła oraz delikatne używanie wodzy. Zbyt mocne działanie ręką może powodować u konia ból i dyskomfort.\n" +
+                  "\n" +
+                  "Lekcja była bardzo ciekawa i praktyczna. Mogliśmy obejrzeć różne wędzidła i porównać ich budowę. Dowiedzieliśmy się, że sprzęt jeździecki powinien być używany odpowiedzialnie, a przede wszystkim z troską o dobro i komfort konia.\n" +
+                  "\n" +
+                  "Podsumowując, lekcja pozwoliła nam lepiej poznać znaczenie wędzideł w jeździectwie oraz nauczyła nas, jak ważne jest właściwe dopasowanie sprzętu i delikatne obchodzenie się z koniem.\n" +
+                  "\n" +
+                  "Panie Trenerze to była bardzo ciekawa lekcja, wiele się nauczyliśmy i czekamy na kolejne z cyklu Rozmowy z Mistrzem.",
+              images: [
+                  "/pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/ViArt/1.jpg",
+                  "/pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/ViArt/2.jpg",
+                  "/pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/ViArt/3.jpg",
+                  "/pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/ViArt/4.jpg",
+                  "/pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/ViArt/5.jpg",
+                  "/pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/ViArt/6.jpg"
+              ],
               instagramEmbedCode: ""
             },
             {
@@ -319,9 +337,22 @@ export function Partners() {
             },
             {
               id: "wm-2-b",
-              title: "Treningi Karolina Badowska",
-              fullText: "Fundamentalne umiejętności w skakaniu przez przeszkody",
-              images: [],
+              title: "Treningi w ViArt Kampinos",
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki Wielki Mistrz Wiktoria Jannasz z Klubu ViArt Kampinos co tydzień trenuje z Grzegorzem Kubiakiem.\n" +
+                  "Treningi odbywają się cyklicznie, Wiktoria trenuje na sześciu koniach, z którymi przygotowuje się do Mistrzostw Polski.\n" +
+                  "Wiktoria Jannasz jest zawodniczką kadry narodowej dzieci i młodzieży i przygotowuje się z Grzegorzem Kubiakiem do najważniejszych startów kadrowych do Pucharu Narodów, Mistrzostw Europy.\n" +
+                  "Treningi są bardzo wartościowe, dają wiele nowych doświadczeń i skutkują znakomitymi wynikami Wiktorii w zawodach krajowych i międzynarodowych.",
+              images: [
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/1.jpg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/2.jpg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/3.jpg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/4.jpg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/5.jpg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/6.jpg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/7.jpg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/8.jpg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/9.jpg",
+              ],
               instagramEmbedCode: ""
             },
             {
@@ -356,9 +387,15 @@ export function Partners() {
               title: "Klinika szkoleniowa z Mistrzem Częstochowa",
               fullText: "Fundamentalne umiejętności w skakaniu przez przeszkody",
               images: [
-                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/1.jpg",
-                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/3.jpg",
+                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/4.jpg",
                   "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/5.jpg",
+                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/6.jpg",
+                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/7.jpg",
+                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/8.jpg",
+                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/9.jpg",
+                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/11.jpg",
+                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/12.jpg",
+                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/13.jpg",
               ],
               instagramEmbedCode: ""
             },
