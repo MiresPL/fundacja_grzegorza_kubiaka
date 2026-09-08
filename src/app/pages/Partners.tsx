@@ -175,7 +175,15 @@ export function Partners() {
             {
               id: "al-1-b",
               title: "13 sierpnia 2026 Caritas",
-              fullText: "Przygotowanie sprzętu i konia do treningu",
+              fullText: "Podobnie jak dzień wcześniej na zaproszenie Fundacji Grzegorza Kubiaka-Rozwój i Pasja w ramach programu Ministerstwa Sportu i Turystyki Aktywni Lokalnie kolejna grupa dzieci z Piaseczna i okolic wraz z opiekunami miała okazję odwiedzić stajnię, gdzie czekało na nie wiele ciekawych atrakcji i niezapomnianych chwil. \n\n" +
+                  "Była to doskonała okazja do bezpośredniego kontaktu z końmi, poznania ich zwyczajów oraz zdobycia nowych doświadczeń. \n\n" +
+                  "Podczas pobytu dzieci zwiedziły stajnię i dowiedziały się, jak wygląda codzienna opieka nad końmi. Zobaczyły, czym konie są karmione, jak przygotowuje się je do jazdy oraz jak należy o nie dbać. \n\n" +
+                  "Dużym zainteresowaniem cieszyło się czyszczenie koni, dzieci z zaangażowaniem szczotkowały ich sierść i uczyły się, jak bezpiecznie podchodzić do zwierząt. \n\n" +
+                  "Najwięcej emocji wzbudził trening skokowy. Skoki przez przeszkody to zawsze bardzo widowiskowy i emocjonujący element pracy z koniem. Dla wielu dzieci było to pierwsze spotkanie z końmi z tak bliska, dlatego początkowo pojawiało się trochę niepewności. Szybko jednak zastąpiły ją uśmiechy, ciekawość i ogromna radość. \n\n" +
+                  "Na wszystkich uczestników spotkania czekał poczęstunek oraz pudełko z niespodziankami. Maskotki ufundowała Firma Chrupka 😀 \n\n" +
+                  "Dziękujemy !!! \n\n" +
+                  "Wizyta w stajni była nie tylko świetną zabawą, ale również wartościową lekcją odpowiedzialności, cierpliwości i szacunku do zwierząt. Dzieci wróciły pełne pozytywnych emocji, nowych doświadczeń i pięknych wspomnień. \n\n" +
+                  "Z pewnością chętnie odwiedzą stajnię ponownie!",
               images: [
                 "pages/partners/programs/aktywni-lokalnie/poznajemy-zycie-stajenne/13-sierpnia-caritas/1.jpg",
                 "pages/partners/programs/aktywni-lokalnie/poznajemy-zycie-stajenne/13-sierpnia-caritas/2.jpg",
@@ -228,11 +236,32 @@ export function Partners() {
           items: [
             {
               id: "al-1-a",
-              title: "12 sierpnia 2026 Caritas",
-              fullText: "Nauka podstawowych czynności opiekuńczych nad koniem",
-              images: [],
+              title: "29 sierpnia 2026",
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki oraz Fundacji Orły Sportu Aktywni Lokalnie zawodniczki i zawodnicy Fundacji Grzegorza Kubiaka -Rozwój i Pasja biorą udział w zajęciach sportowych z treningiem ujeżdżeniowo-skokowym. Uczestnicy pod okiem doświadczonego trenera Grzegorza Kubiaka doskonalą swe umiejętności zarówno w zakresie ujeżdżenia jak i techniki skoków. Treningi odbywają się cyklicznie 3-5 razy w tygodniu.",
+              images: [
+                  "pages/partners/programs/aktywni-lokalnie/treningi/29_sierpnia_2026/1.jpg",
+                  "pages/partners/programs/aktywni-lokalnie/treningi/29_sierpnia_2026/2.jpg",
+                  "pages/partners/programs/aktywni-lokalnie/treningi/29_sierpnia_2026/3.jpg",
+                  "pages/partners/programs/aktywni-lokalnie/treningi/29_sierpnia_2026/4.jpg",
+                  "pages/partners/programs/aktywni-lokalnie/treningi/29_sierpnia_2026/5.jpg",
+                  "pages/partners/programs/aktywni-lokalnie/treningi/29_sierpnia_2026/6.jpg"
+              ],
               instagramEmbedCode: ""
             },
+            {
+              id: "al-1-b",
+              title: "1 września 2026",
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki oraz Fundacji Orły Sportu Aktywni Lokalnie zawodniczki i zawodnicy Fundacji Grzegorza Kubiaka -Rozwój i Pasja biorą udział w zajęciach sportowych z treningiem ujeżdżeniowo-skokowym. Uczestnicy pod okiem doświadczonego trenera Grzegorza Kubiaka doskonalą swe umiejętności zarówno w zakresie ujeżdżenia jak i techniki skoków. Treningi odbywają się cyklicznie 3-5 razy w tygodniu.",
+              images: [
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/1.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/2.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/3.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/4.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/5.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/6.jpg"
+              ],
+              instagramEmbedCode: ""
+            }
           ]
         }
       ]
@@ -360,6 +389,23 @@ export function Partners() {
               title: "Treningi u Eweliny Polskiej-Fijałek",
               fullText: "Fundamentalne umiejętności w skakaniu przez przeszkody",
               images: [],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "wm-2-d",
+              title: "Treningi w Siedliskach",
+              fullText: "",
+              images: [
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/1.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/2.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/3.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/4.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/5.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/6.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/7.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/8.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/9.jpg",
+              ],
               instagramEmbedCode: ""
             },
           ]
