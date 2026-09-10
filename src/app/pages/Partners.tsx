@@ -403,8 +403,7 @@ export function Partners() {
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/5.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/6.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/7.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/8.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/9.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/8.jpg"
               ],
               instagramEmbedCode: ""
             },
@@ -417,21 +416,28 @@ export function Partners() {
             {
               id: "wm-3-a",
               title: "Klinika szkoleniowa z Mistrzem Kozłów",
-              fullText: "Fundamentalne umiejętności w skakaniu przez przeszkody",
+              fullText: "",
               images: [],
               instagramEmbedCode: ""
             },
             {
               id: "wm-3-b",
               title: "Klinika szkoleniowa z Mistrzem Budki Żelazowskie",
-              fullText: "Fundamentalne umiejętności w skakaniu przez przeszkody",
+              fullText: "",
               images: [],
               instagramEmbedCode: ""
             },
             {
               id: "wm-3-c",
               title: "Klinika szkoleniowa z Mistrzem Częstochowa",
-              fullText: "Fundamentalne umiejętności w skakaniu przez przeszkody",
+              fullText: "W dniach 1-2 sierpnia 2026 r. odbyła się Klinika szkoleniowa pod patronatem Ministerstwa Sportu i Turystyki w ramach programu Wielki Mistrz zorganizowana przez Fundację Grzegorza Kubiaka Rozwój i Pasja w Stajni Don Camillo w Konopiskach k/Częstochowy. \n\n" +
+                  "Treningi prowadził Grzegorz Kubiak. \n\n" +
+                  "Klinika szkoleniowa w skokach przez przeszkody była wartościowym doświadczeniem dla wszystkich uczestników, niezależnie od poziomu zaawansowania. Zajęcia poświęcone były poprawie techniki jazdy, równowagi jeźdźca oraz precyzji najazdu na przeszkody. " +
+                  "Trener zwracał szczególną uwagę na prawidłową pozycję w siodle, pracę rąk i nóg oraz utrzymanie rytmu galopu. \n\n" +
+                  "Podczas treningu wykonywano ćwiczenia na drągach, szeregi gimnastyczne oraz pojedyncze przeszkody, co pozwoliło lepiej zrozumieć mechanikę skoku i poprawić współpracę z koniem. \n\n" +
+                  "Uczestnicy otrzymywali indywidualne wskazówki, które pomogły im skorygować błędy i zwiększyć pewność siebie. Uczestnicy mieli okazję skorzystać z wielu cennych uwag i wskazówek, a zdobytą wiedzę zaprezentowali w ostatnim dniu na parkurze. \n\n" +
+                  "Klinika przebiegła w przyjaznej atmosferze, sprzyjającej nauce i wymianie doświadczeń. Zdobyta wiedza i praktyka z pewnością przyczynią się do dalszego rozwoju umiejętności jeździeckich.  \n\n" +
+                  "Dziękujemy Wszystkim Uczestnikom za zaangażowanie, chęć do pracy, ambicję oraz świetną atmosferę.",
               images: [
                   "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/4.jpg",
                   "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/5.jpg",
@@ -442,6 +448,7 @@ export function Partners() {
                   "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/11.jpg",
                   "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/12.jpg",
                   "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/13.jpg",
+                  "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/czestochowa/14.jpg",
               ],
               instagramEmbedCode: ""
             },
