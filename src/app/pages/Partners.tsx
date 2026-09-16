@@ -258,7 +258,31 @@ export function Partners() {
                 "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/3.jpg",
                 "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/4.jpg",
                 "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/5.jpg",
-                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/6.jpg"
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/6.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/7.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/8.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/1_września_2026/9.jpg",
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "al-1-c",
+              title: "8 września 2026",
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki oraz Fundacji Orły Sportu Aktywni Lokalnie zawodniczki i zawodnicy Fundacji Grzegorza Kubiaka -Rozwój i Pasja biorą udział w zajęciach sportowych z treningiem ujeżdżeniowo-skokowym. Uczestnicy pod okiem doświadczonego trenera Grzegorza Kubiaka doskonalą swe umiejętności zarówno w zakresie ujeżdżenia jak i techniki skoków. Treningi odbywają się cyklicznie 3-5 razy w tygodniu.",
+              images: [
+                "pages/partners/programs/aktywni-lokalnie/treningi/8_września_2026/1.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/8_września_2026/2.jpg",
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "al-1-d",
+              title: "15 września 2026",
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki oraz Fundacji Orły Sportu Aktywni Lokalnie zawodniczki i zawodnicy Fundacji Grzegorza Kubiaka -Rozwój i Pasja biorą udział w zajęciach sportowych z treningiem ujeżdżeniowo-skokowym. Uczestnicy pod okiem doświadczonego trenera Grzegorza Kubiaka doskonalą swe umiejętności zarówno w zakresie ujeżdżenia jak i techniki skoków. Treningi odbywają się cyklicznie 3-5 razy w tygodniu.",
+              images: [
+                "pages/partners/programs/aktywni-lokalnie/treningi/15_września_2026/1.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/15_września_2026/2.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/15_września_2026/3.jpg",
               ],
               instagramEmbedCode: ""
             }
@@ -393,20 +417,59 @@ export function Partners() {
             },
             {
               id: "wm-2-d",
-              title: "Treningi w Siedliskach",
+              title: "Treningi z Karoliną Badowską",
               fullText: "",
               images: [
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/1.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/2.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/3.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/4.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/5.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/6.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/7.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska/8.jpg"
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/1.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/2.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/3.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/4.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/5.jpg",
               ],
               instagramEmbedCode: ""
             },
+            {
+              id: "wm-2-e",
+              title: "Trening w Siedliskach (01.09.2026)",
+              fullText: "",
+              images: [
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_01_09_2026/1.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_01_09_2026/2.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_01_09_2026/3.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_01_09_2026/4.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_01_09_2026/5.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_01_09_2026/6.jpg",
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "wm-2-f",
+              title: "Trening w Siedliskach (xx.xx.2026)",
+              fullText: "",
+              images: [
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_xx_xx_2026/1.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_xx_xx_2026/2.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_xx_xx_2026/3.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_xx_xx_2026/4.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_xx_xx_2026/5.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_xx_xx_2026/6.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_xx_xx_2026/7.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_xx_xx_2026/8.jpg"
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "wm-2-g",
+              title: "Trening w Siedliskach (14.09.2026)",
+              fullText: "",
+              images: [
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/1.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/2.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/3.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/4.jpg",
+              ],
+              instagramEmbedCode: ""
+            }
           ]
         },
         {
