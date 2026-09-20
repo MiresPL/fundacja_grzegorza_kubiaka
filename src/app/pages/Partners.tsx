@@ -1,6 +1,52 @@
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "../components/ui/accordion";
+import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "../components/ui/carousel";
+import { Dialog, DialogContent, DialogTitle } from "../components/ui/dialog";
 import { InstagramEmbed } from "../components/ui/InstagramEmbed.tsx";
+import { ZoomIn } from "lucide-react";
 import { useState } from "react";
+
+function ProgramGallery({ images, itemId }: { images: string[]; itemId: string }) {
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+
+  return (
+    <>
+      <Carousel opts={{ loop: true }} className="w-full max-w-2xl mx-auto">
+        <CarouselContent>
+          {images.map((image, idx) => (
+            <CarouselItem key={`${itemId}-${idx}`}>
+              <div className="relative rounded-lg overflow-hidden bg-gray-200 aspect-video">
+                <img src={image} alt={`Spotkanie ${idx + 1}`} className="w-full h-full object-contain" />
+                <button
+                  type="button"
+                  onClick={() => setLightboxImage(image)}
+                  className="absolute top-2 right-2 bg-black/60 text-white p-2 rounded-full hover:bg-black/80 transition-colors"
+                  aria-label="Powiększ zdjęcie"
+                >
+                  <ZoomIn className="w-5 h-5" />
+                </button>
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        {images.length > 1 && (
+          <>
+            <CarouselPrevious />
+            <CarouselNext />
+          </>
+        )}
+      </Carousel>
+
+      <Dialog open={lightboxImage !== null} onOpenChange={(open) => !open && setLightboxImage(null)}>
+        <DialogContent className="max-w-[95vw] sm:max-w-5xl w-fit p-2 bg-black/90 border-none flex items-center justify-center">
+          <DialogTitle className="sr-only">Powiększone zdjęcie</DialogTitle>
+          {lightboxImage && (
+            <img src={lightboxImage} alt="Powiększone zdjęcie" className="max-w-full max-h-[90vh] w-auto h-auto object-contain rounded" />
+          )}
+        </DialogContent>
+      </Dialog>
+    </>
+  );
+}
 
 type PartnerLink = {
   name: string;
@@ -338,8 +384,23 @@ export function Partners() {
             {
               id: "wm-1-c",
               title: "Rozmowy z Mistrzem z klasą kawalerii konnej",
-              fullText: "Doskonalenie techniki jazdy na wyższym poziomie",
-              images: [],
+              fullText: "17 września 2026 r. w stajni w Siedliskach na zaproszenie Fundacji Grzegorza Kubiaka-Rozwój i Pasja odbyło się spotkanie z uczniami i nauczycielami LXXVI Liceum Ogólnokształcącego im. Marszałka Józefa Piłsudskiego w Warszawie z 4 klasy kawalerii konnej.\n\n" +
+                  "Spotkanie odbyło się w ramach programu Ministerstwa Sportu i Turystyki - Wielki Mistrz, którego beneficjentem jest Fundacja Grzegorza Kubiaka-Rozwój i Pasja.\n\n" +
+                  "Jak nazwa programu wskazuje była z nami wielka osobowość polskiego jeździectwa Grzegorz Kubiak.\n\n" +
+                  "Spotkanie rozpoczęło się od prezentacji przejazdu Grzegorza Kubiaka podczas Olimpiady w Atenach w 2004 r, następnie młodzież obejrzała przejazd z Mistrzostw Polski oraz z Cavaliady. Po obejrzeniu tych niezwykle ciekawych konkursów młodzież zadawała wiele ciekawych pytań, były anegdoty z życia Trenera, było dużo nauki i dużo śmiechu. Następnie wolontariuszki opowiedziały o koniach oraz o ich zwyczajach i predyspozycjach sportowych. Później nadszedł czas na słodki poczęstunek, a nasze zawodniczki przygotowały się w tym czasie do treningu pokazowego. Trening skokowy zawsze wzbudza wiele emocji, konie prezentowały się znakomicie i skakały wysoko i bezbłędnie.\n\n" +
+                  "Spotkanie przebiegło w fantastycznej atmosferze, na koniec konie dostały od uczniów nagrodę w postaci marchewki i jabłka.\n\n" +
+                  "Dziękujemy Ministerstwu Sportu i Turystyki za umożliwienie nam zorganizowania takiego spotkania w ramach przekazanych środków finansowych.",
+              images: [
+                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/1.png",
+                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/2.jpg",
+                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/3.jpg",
+                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/4.jpg",
+                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/5.jpg",
+                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/6.jpg",
+                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/7.jpg",
+                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/8.jpg",
+                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/9.jpg",
+              ],
               instagramEmbedCode: ""
             },
             {
@@ -630,13 +691,7 @@ export function Partners() {
                                             {item.images.length > 0 && (
                                               <div>
                                                 <h4 className="font-semibold text-gray-900 mb-3">Galeria</h4>
-                                                <div className="grid grid-cols-2 gap-4">
-                                                  {item.images.map((image, idx) => (
-                                                    <div key={`${item.id}-${idx}`} className="rounded-lg overflow-hidden bg-gray-200 aspect-square">
-                                                      <img src={image} alt={`Spotkanie ${idx + 1}`} className="w-full h-full object-cover" />
-                                                    </div>
-                                                  ))}
-                                                </div>
+                                                <ProgramGallery images={item.images} itemId={item.id} />
                                               </div>
                                             )}
 
