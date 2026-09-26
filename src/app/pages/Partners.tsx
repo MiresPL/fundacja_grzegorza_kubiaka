@@ -167,6 +167,13 @@ export function Partners() {
               fullText: "",
               images: [],
               instagramEmbedCode: ""
+            },
+            {
+              id: "al-1-b",
+              title: "Technikum Hodowli Koni",
+              fullText: "",
+              images: [],
+              instagramEmbedCode: ""
             }
           ]
         },
@@ -471,13 +478,6 @@ export function Partners() {
             },
             {
               id: "wm-2-c",
-              title: "Treningi u Eweliny Polskiej-Fijałek",
-              fullText: "Fundamentalne umiejętności w skakaniu przez przeszkody",
-              images: [],
-              instagramEmbedCode: ""
-            },
-            {
-              id: "wm-2-d",
               title: "Treningi z Karoliną Badowską",
               fullText: "",
               images: [
@@ -490,8 +490,8 @@ export function Partners() {
               instagramEmbedCode: ""
             },
             {
-              id: "wm-2-e",
-              title: "Trening w Siedliskach (01.09.2026)",
+              id: "wm-2-d",
+              title: "Trening w Siedliskach",
               fullText: "",
               images: [
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_01_09_2026/1.jpg",
@@ -504,8 +504,8 @@ export function Partners() {
               instagramEmbedCode: ""
             },
             {
-              id: "wm-2-f",
-              title: "Trening w Siedliskach (xx.xx.2026)",
+              id: "wm-2-e",
+              title: "Trening w Siedliskach",
               fullText: "",
               images: [
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_xx_xx_2026/1.jpg",
@@ -520,14 +520,39 @@ export function Partners() {
               instagramEmbedCode: ""
             },
             {
-              id: "wm-2-g",
-              title: "Trening w Siedliskach (14.09.2026)",
+              id: "wm-2-f",
+              title: "Trening w Siedliskach",
               fullText: "",
               images: [
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/1.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/2.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/3.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/4.jpg",
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "wm-2-g",
+              title: "Trening w Szumawie",
+              fullText: "",
+              images: [
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/szumawa/1.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/szumawa/2.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/szumawa/3.jpg",
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "wm-2-h",
+              title: "Trening klasa kawalerii konnej 18.08",
+              fullText: "17 września 2026 r. w stajni w Siedliskach na zaproszenie Fundacji Grzegorza Kubiaka-Rozwój i Pasja odbyło się spotkanie z uczniami i nauczycielami LXXVI Liceum Ogólnokształcącego im. Marszałka Józefa Piłsudskiego w Warszawie z 4 klasy kawalerii konnej. \n\n" +
+                  "Spotkanie odbyło się w ramach programu Ministerstwa Sportu i Turystyki - Wielki Mistrz, którego beneficjentem jest Fundacja Grzegorza Kubiaka-Rozwój i Pasja. \n\n" +
+                  "Jak nazwa programu wskazuje była z nami wielka osobowość polskiego jeździectwa Grzegorz Kubiak. \n\n" +
+                  "Trener wraz z naszymi zawodniczkami przygotował dla naszych gości trening pokazowy. Trening skokowy zawsze wzbudza wiele emocji, konie prezentowały się znakomicie i skakały wysoko i bezbłędnie. \n\n" +
+                  "Spotkanie przebiegło w fantastycznej atmosferze, na koniec konie dostały od uczniów nagrodę w postaci marchewki i jabłka. \n\n" +
+                  "Dziękujemy Ministerstwu Sportu i Turystyki za umożliwienie nam zorganizowania takiego spotkania w ramach przekazanych środków finansowych.\n" +
+                  "\n",
+              images: [
               ],
               instagramEmbedCode: ""
             }
