@@ -404,9 +404,6 @@ export function Partners() {
                   "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/4.jpg",
                   "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/5.jpg",
                   "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/6.jpg",
-                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/7.jpg",
-                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/8.jpg",
-                  "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/klasa_kawalerii_konnej/9.jpg",
               ],
               instagramEmbedCode: ""
             },
@@ -534,7 +531,13 @@ export function Partners() {
             {
               id: "wm-2-g",
               title: "Trening w Szumawie",
-              fullText: "",
+              fullText: "Za nami wyjątkowo udane wydarzenie, które odbyło się w dniach 19-20 września w Klubie Jeździeckim Erren Bobrowiec - klinika szkoleniowa w skokach przez przeszkody z wybitnym jeźdźcem i trenerem Grzegorzem Kubiakiem! \n" +
+                  "\n" +
+                  "Treningi z Mistrzem to cykl szkoleń, które odbywają się w ramach programu Wielki Mistrz pod patronatem Ministerstwa Sportu i Turystyki. Podczas treningów zawodnicy doskonalili technikę jazdy, pracę nad rytmem oraz prawidłowe najazdy na przeszkody. Nie zabrakło cennych wskazówek, nowych wyzwań i wielu sportowych emocji.\n" +
+                  "\n" +
+                  "Każdy trening był okazją do zdobycia nowych doświadczeń i pracy nad własnymi umiejętnościami.\n" +
+                  "\n" +
+                  "Dzięki wsparciu i współpracy z Ministerstwem Sportu i Turystki mogliśmy zorganizować ciekawe i wyjątkowe wydarzenie.  Dziękujemy wszystkim uczestnikom za zaangażowanie, pozytywną atmosferę i wspólnie spędzony czas, a KJ Erren Bobrowiec za gościnę.  Do zobaczenia na kolejnych treningach!",
               images: [
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/szumawa/1.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/szumawa/2.jpg",
@@ -544,7 +547,7 @@ export function Partners() {
             },
             {
               id: "wm-2-h",
-              title: "Trening klasa kawalerii konnej 18.08",
+              title: "Trening klasa kawalerii konnej",
               fullText: "17 września 2026 r. w stajni w Siedliskach na zaproszenie Fundacji Grzegorza Kubiaka-Rozwój i Pasja odbyło się spotkanie z uczniami i nauczycielami LXXVI Liceum Ogólnokształcącego im. Marszałka Józefa Piłsudskiego w Warszawie z 4 klasy kawalerii konnej. \n\n" +
                   "Spotkanie odbyło się w ramach programu Ministerstwa Sportu i Turystyki - Wielki Mistrz, którego beneficjentem jest Fundacja Grzegorza Kubiaka-Rozwój i Pasja. \n\n" +
                   "Jak nazwa programu wskazuje była z nami wielka osobowość polskiego jeździectwa Grzegorz Kubiak. \n\n" +
@@ -553,6 +556,9 @@ export function Partners() {
                   "Dziękujemy Ministerstwu Sportu i Turystyki za umożliwienie nam zorganizowania takiego spotkania w ramach przekazanych środków finansowych.\n" +
                   "\n",
               images: [
+                "pages/partners/programs/wielki-mistrz/trening-z-mistrzem/klasa_kawalerii_konnej/1.jpg",
+                "pages/partners/programs/wielki-mistrz/trening-z-mistrzem/klasa_kawalerii_konnej/2.jpg",
+                "pages/partners/programs/wielki-mistrz/trening-z-mistrzem/klasa_kawalerii_konnej/3.jpg"
               ],
               instagramEmbedCode: ""
             }
