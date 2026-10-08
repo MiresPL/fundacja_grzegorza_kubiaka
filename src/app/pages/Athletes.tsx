@@ -77,6 +77,14 @@ export function Athletes() {
       id: 16,
       image: "/pages/athletes/image32.jpg"
     },
+    {
+      id: 17,
+      image: "/pages/athletes/image33.jpg"
+    },
+    {
+      id: 18,
+      image: "/pages/athletes/image34.jpg"
+    },
   ];
 
   return (

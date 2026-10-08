@@ -144,6 +144,11 @@ export function Partners() {
       name: "Equi Projekt",
       logo: "/pages/partners/equiProjekt.png",
       url: "https://equiprojekt.pl/"
+    },
+    {
+      name: "M&A Michnik",
+      logo: "/pages/partners/m&a_michnik.jpg",
+      url: "https://ma-michnik.pl/"
     }
   ];
 
@@ -336,6 +341,44 @@ export function Partners() {
                 "pages/partners/programs/aktywni-lokalnie/treningi/15_września_2026/1.jpg",
                 "pages/partners/programs/aktywni-lokalnie/treningi/15_września_2026/2.jpg",
                 "pages/partners/programs/aktywni-lokalnie/treningi/15_września_2026/3.jpg",
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "al-1-e",
+              title: "3 październik 2026",
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki oraz Fundacji Orły Sportu Aktywni Lokalnie zawodniczki i zawodnicy Fundacji Grzegorza Kubiaka -Rozwój i Pasja biorą udział w zajęciach sportowych z treningiem ujeżdżeniowo-skokowym. Uczestnicy pod okiem doświadczonego trenera Grzegorza Kubiaka doskonalą swe umiejętności zarówno w zakresie ujeżdżenia jak i techniki skoków. Treningi odbywają się cyklicznie 3-5 razy w tygodniu.",
+              images: [
+                "pages/partners/programs/aktywni-lokalnie/treningi/3_październik_2026/1.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/3_październik_2026/2.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/3_październik_2026/3.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/3_październik_2026/4.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/3_październik_2026/5.jpg",
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "al-1-f",
+              title: "7 październik 2026",
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki oraz Fundacji Orły Sportu Aktywni Lokalnie zawodniczki i zawodnicy Fundacji Grzegorza Kubiaka -Rozwój i Pasja biorą udział w zajęciach sportowych z treningiem ujeżdżeniowo-skokowym. Uczestnicy pod okiem doświadczonego trenera Grzegorza Kubiaka doskonalą swe umiejętności zarówno w zakresie ujeżdżenia jak i techniki skoków. Treningi odbywają się cyklicznie 3-5 razy w tygodniu.",
+              images: [
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/1.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/2.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/3.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/4.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/5.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/6.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/7.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/8.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/9.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/10.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/11.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/12.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/13.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/14.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/15.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/16.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/17.jpg",
               ],
               instagramEmbedCode: ""
             }
@@ -559,6 +602,29 @@ export function Partners() {
                 "pages/partners/programs/wielki-mistrz/trening-z-mistrzem/klasa_kawalerii_konnej/1.jpg",
                 "pages/partners/programs/wielki-mistrz/trening-z-mistrzem/klasa_kawalerii_konnej/2.jpg",
                 "pages/partners/programs/wielki-mistrz/trening-z-mistrzem/klasa_kawalerii_konnej/3.jpg"
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "wm-2-i",
+              title: "Trening w Siedliskach",
+              fullText: "",
+              images: [
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/1.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/2.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/3.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/4.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/5.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/6.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/7.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/8.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/9.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/10.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/11.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/12.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/13.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/14.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/15.jpg",
               ],
               instagramEmbedCode: ""
             }
