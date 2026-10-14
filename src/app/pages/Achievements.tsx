@@ -6,6 +6,24 @@ export function Achievements() {
       year: 2026,
       achievements: [
         {
+          icon: Medal,
+          title: "Zawody Ogólnopolskie 2* FINAŁ POLSKIEJ LIGI JEŹDZIECKIEJ",
+          description: "II miejsce w klasyfikacji generalnej w Rundzie młodzieżowej",
+          date: "Centrum Hipiki Jaszkowo, 24-27 września 2026"
+        },
+        {
+          icon: Medal,
+          title: "Zawody Ogólnopolskie 2* FINAŁ POLSKIEJ LIGI JEŹDZIECKIEJ",
+          description: "III miejsce indywidualnie w konkursie drużynowym",
+          date: "Centrum Hipiki Jaszkowo, 24-27 września 2026"
+        },
+        {
+          icon: Medal,
+          title: "Zawody Ogólnopolskie 2* FINAŁ POLSKIEJ LIGI JEŹDZIECKIEJ",
+          description: "Drużynowo VI miejsce w klasyfikacji generalnej",
+          date: "Centrum Hipiki Jaszkowo, 24-27 września 2026"
+        },
+        {
           icon: Trophy,
           title: "Zawody Ogólnopolskie 2* CSN, IV Etap Polska Liga Jeździecka i ZRiT w Skokach przez Przeszkody",
           description: "I miejsce",

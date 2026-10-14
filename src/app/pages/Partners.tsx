@@ -176,8 +176,22 @@ export function Partners() {
             {
               id: "al-1-b",
               title: "Technikum Hodowli Koni",
-              fullText: "",
-              images: [],
+              fullText: "W dniu 8 października 2026 r. Fundacja Grzegorza Kubiaka-Rozwój i Pasja została zaproszona do Zespołu Szkół Nr 3 im. Cecylii Plater-Zyberkówny w Piasecznie.\n" +
+                  "Spotkanie odbyło się w ramach programu Ministerstwa Sportu i Turystyki „Aktywni Lokalnie” w ramach cyklu spotkań „Piaseczno na koniu”. \nW spotkaniu wzięło udział ponad 60 uczniów klas od I-V, którzy tłumnie stawili się na spotkanie z Grzegorzem Kubiakiem. \n" +
+                  "Ten wybitny jeździec i trener zgłębiał wraz z młodzieżą tajniki techniki i taktyki jazdy. Merytorycznie odpowiadał na wszystkie pytania. Chętnie analizował z młodzieżą własne przejazdy z Olimpiady i Mistrzostw Polski. \n" +
+                  "Spotkanie obfitowało w wiele cennych rad i uwag, które następnie uczniowie wdrożyli w życie, przystępując do części praktycznej spotkania.",
+              images: [
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/1.jpeg",
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/2.jpeg",
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/3.jpeg",
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/4.jpeg",
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/5.jpeg",
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/6.jpeg",
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/7.jpeg",
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/8.jpeg",
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/9.jpeg",
+                  "pages/partners/programs/aktywni-lokalnie/piaseczno-na-koniu/technikum-hodowli/10.jpeg",
+              ],
               instagramEmbedCode: ""
             }
           ]
@@ -381,6 +395,27 @@ export function Partners() {
                 "pages/partners/programs/aktywni-lokalnie/treningi/7_październik_2026/17.jpg",
               ],
               instagramEmbedCode: ""
+            },
+            {
+              id: "al-1-g",
+              title: "Treningi Madzi i Igi",
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki oraz Fundacji Orły Sportu Aktywni Lokalnie zawodniczki i zawodnicy Fundacji Grzegorza Kubiaka -Rozwój i Pasja biorą udział w zajęciach sportowych z treningiem ujeżdżeniowo-skokowym. Uczestnicy pod okiem doświadczonego trenera Grzegorza Kubiaka doskonalą swe umiejętności zarówno w zakresie ujeżdżenia jak i techniki skoków. Treningi odbywają się cyklicznie 3-5 razy w tygodniu.",
+              images: [
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/1.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/2.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/3.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/4.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/5.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/6.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/7.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/8.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/9.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/10.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/11.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/12.jpeg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/13.jpeg",
+              ],
+              instagramEmbedCode: ""
             }
           ]
         }
@@ -513,6 +548,17 @@ export function Partners() {
                   "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/7.jpg",
                   "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/8.jpg",
                   "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/9.jpg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/10.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/11.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/12.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/13.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/14.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/15.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/16.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/17.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/18.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/19.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/20.jpeg",
               ],
               instagramEmbedCode: ""
             },
@@ -625,6 +671,30 @@ export function Partners() {
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/13.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/14.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/15.jpg",
+              ],
+              instagramEmbedCode: ""
+            },
+            {
+              id: "wm-2-j",
+              title: "Trening Technikum Hodowli Koni",
+              fullText: "W dniu 8 października 2026 r. Fundacja Grzegorza Kubiaka-Rozwój i Pasja została zaproszona do Zespołu Szkół Nr 3 im. Cecylii Plater-Zyberkówny w Piasecznie.\n\n" +
+                  "Spotkanie odbyło się w ramach programu Ministerstwa Sportu i Turystyki „Wielki Mistrz”. \n" +
+                  "Główną postacią tego wydarzenia był Grzegorz Kubiak, wybitny jeździec i trener. \n\n" +
+                  "Młodzież tłumnie przybyła na spotkanie z Mistrzem jeździectwa. " +
+                  "Po części teoretycznej, młodzież miała okazję odbyć trening z Trenerem. Było dużo cennych rad, były też uwagi i wskazówki techniczne. Grzegorz Kubiak od lat pracuje z młodzieżą, jako Trener kadry narodowej dzieci i młodzieży, dlatego spotkanie z uczniami szkoły miało dla niego ogromna wartość emocjonalną i edukacyjną. \n" +
+                  "Dla każdego Trenera jest bardzo cenne, jeśli może podzielić się swoją wiedzą i doświadczeniem z młodymi adeptami sztuki jeździeckiej.",
+              images: [
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/1.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/2.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/3.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/4.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/5.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/6.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/7.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/8.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/9.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/10.jpeg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/technikum-hodowli/11.jpeg",
               ],
               instagramEmbedCode: ""
             }
