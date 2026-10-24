@@ -111,6 +111,11 @@ export function Partners() {
       name: "Orły Sportu Fundacja",
       logo: "/pages/partners/orly_sportu.png",
       url: "https://orlysportu.pl/"
+    },
+    {
+      name: "Gmina Piaseczno",
+      logo: "/pages/partners/piaseczno.png",
+      url: "https://piaseczno.eu/"
     }
   ];
 
@@ -461,9 +466,13 @@ export function Partners() {
             },
             {
               id: "wm-1-b",
-              title: "Rozmowy z Mistrzem w Siedliskach na treningu",
+              title: "Rozmowy z Mistrzem w Technikum Hodowli Koni",
               fullText: "Doskonalenie techniki jazdy na wyższym poziomie",
-              images: [],
+              images: [
+                "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/technikum_hodowli/1.jpg",
+                "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/technikum_hodowli/2.jpg",
+                "pages/partners/programs/wielki-mistrz/rozmowy-z-mistrzem/technikum_hodowli/3.jpg",
+              ],
               instagramEmbedCode: ""
             },
             {
@@ -559,6 +568,23 @@ export function Partners() {
                   "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/18.jpeg",
                   "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/19.jpeg",
                   "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/20.jpeg",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/21.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/22.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/23.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/24.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/2.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/26.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/27.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/28.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/29.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/30.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/31.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/32.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/33.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/34.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/35.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/36.JPG",
+                  "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/ViArt/37.JPG",
               ],
               instagramEmbedCode: ""
             },
@@ -614,23 +640,6 @@ export function Partners() {
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/2.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/3.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_14_09_2026/4.jpg",
-              ],
-              instagramEmbedCode: ""
-            },
-            {
-              id: "wm-2-g",
-              title: "Trening w Szumawie",
-              fullText: "Za nami wyjątkowo udane wydarzenie, które odbyło się w dniach 19-20 września w Klubie Jeździeckim Erren Bobrowiec - klinika szkoleniowa w skokach przez przeszkody z wybitnym jeźdźcem i trenerem Grzegorzem Kubiakiem! \n" +
-                  "\n" +
-                  "Treningi z Mistrzem to cykl szkoleń, które odbywają się w ramach programu Wielki Mistrz pod patronatem Ministerstwa Sportu i Turystyki. Podczas treningów zawodnicy doskonalili technikę jazdy, pracę nad rytmem oraz prawidłowe najazdy na przeszkody. Nie zabrakło cennych wskazówek, nowych wyzwań i wielu sportowych emocji.\n" +
-                  "\n" +
-                  "Każdy trening był okazją do zdobycia nowych doświadczeń i pracy nad własnymi umiejętnościami.\n" +
-                  "\n" +
-                  "Dzięki wsparciu i współpracy z Ministerstwem Sportu i Turystki mogliśmy zorganizować ciekawe i wyjątkowe wydarzenie.  Dziękujemy wszystkim uczestnikom za zaangażowanie, pozytywną atmosferę i wspólnie spędzony czas, a KJ Erren Bobrowiec za gościnę.  Do zobaczenia na kolejnych treningach!",
-              images: [
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/szumawa/1.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/szumawa/2.jpg",
-                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/szumawa/3.jpg",
               ],
               instagramEmbedCode: ""
             },
@@ -713,9 +722,27 @@ export function Partners() {
             },
             {
               id: "wm-3-b",
-              title: "Klinika szkoleniowa z Mistrzem Budki Żelazowskie",
-              fullText: "",
-              images: [],
+              title: "Klinika w Szumawie",
+              fullText: "Za nami wyjątkowo udane wydarzenie, które odbyło się w dniach 19-20 września w Klubie Jeździeckim Erren Bobrowiec - klinika szkoleniowa w skokach przez przeszkody z wybitnym jeźdźcem i trenerem Grzegorzem Kubiakiem! \n" +
+                  "\n" +
+                  "Treningi z Mistrzem to cykl szkoleń, które odbywają się w ramach programu Wielki Mistrz pod patronatem Ministerstwa Sportu i Turystyki. Podczas treningów zawodnicy doskonalili technikę jazdy, pracę nad rytmem oraz prawidłowe najazdy na przeszkody. Nie zabrakło cennych wskazówek, nowych wyzwań i wielu sportowych emocji.\n" +
+                  "\n" +
+                  "Każdy trening był okazją do zdobycia nowych doświadczeń i pracy nad własnymi umiejętnościami.\n" +
+                  "\n" +
+                  "Dzięki wsparciu i współpracy z Ministerstwem Sportu i Turystki mogliśmy zorganizować ciekawe i wyjątkowe wydarzenie.  Dziękujemy wszystkim uczestnikom za zaangażowanie, pozytywną atmosferę i wspólnie spędzony czas, a KJ Erren Bobrowiec za gościnę.  Do zobaczenia na kolejnych treningach!",
+              images: [
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/1.jpg",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/2.jpg",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/3.jpg",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/4.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/5.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/6.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/7.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/8.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/9.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/10.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/szumawa/11.JPG",
+              ],
               instagramEmbedCode: ""
             },
             {
@@ -747,7 +774,31 @@ export function Partners() {
         },
 
       ]
-    }
+    },
+    {
+      id: 3,
+      name: "Minigrant Burmistrza Miasta i Gminy Piaseczno",
+      fullText:
+          "",
+      logo: "/pages/partners/piaseczno.png",
+      images: [],
+      instagramEmbedCode: "",
+      subprograms: [
+        {
+          id: "al-1",
+          name: "Jezdziectwo na olimpijskim poziomie",
+          items: [
+            {
+              id: "al-1-a",
+              title: "treningi w KJ Erren - Szumawa",
+              fullText: "",
+              images: [],
+              instagramEmbedCode: ""
+            },
+          ]
+        },
+      ]
+    },
   ];
 
   const mdColsClassMap = {
