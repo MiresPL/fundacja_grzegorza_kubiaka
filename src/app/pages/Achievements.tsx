@@ -7,6 +7,60 @@ export function Achievements() {
       achievements: [
         {
           icon: Medal,
+          title: "CSI1* GILLMET HORSES Small Tour 4Foulee",
+          description: "XI miejsce 120 cm",
+          date: "Barczewo, 2026"
+        },
+        {
+          icon: Medal,
+          title: "CSI1* GILLMET HORSES Small Tour 4Foulee",
+          description: "XI miejsce 125 cm",
+          date: "Barczewo, 2026"
+        },
+        {
+          icon: Medal,
+          title: "Halowe Zawody Ogólnopolskie Dzieci i Młodzieży",
+          description: "II miejsce w finale grupy A2",
+          date: "KJ Aromer, 16-18 października 2026"
+        },
+        {
+          icon: Medal,
+          title: "Halowe Zawody Regionalne i Towarzyskie",
+          description: "III miejsce 130 cm",
+          date: "Becker Sport, 10-11 października 2026"
+        },
+        {
+          icon: Trophy,
+          title: "Halowe Zawody Regionalne i Towarzyskie",
+          description: "I miejsce 125 cm",
+          date: "Becker Sport, 10-11 października 2026"
+        },
+        {
+          icon: Medal,
+          title: "Halowe Zawody Regionalne i Towarzyskie",
+          description: "II miejsce 125 cm",
+          date: "Becker Sport, 10-11 października 2026"
+        },
+        {
+          icon: Trophy,
+          title: "Halowe Zawody Regionalne i Towarzyskie",
+          description: "I miejsce 120 cm",
+          date: "Becker Sport, 10-11 października 2026"
+        },
+        {
+          icon: Medal,
+          title: "Halowe Zawody Regionalne i Towarzyskie",
+          description: "III miejsce 120 cm",
+          date: "Becker Sport, 10-11 października 2026"
+        },
+        {
+          icon: Medal,
+          title: "Halowe Zawody Regionalne i Towarzyskie",
+          description: "II miejsce 115 cm",
+          date: "Becker Sport, 10-11 października 2026"
+        },
+        {
+          icon: Medal,
           title: "Zawody Ogólnopolskie 2* FINAŁ POLSKIEJ LIGI JEŹDZIECKIEJ",
           description: "II miejsce w klasyfikacji generalnej w Rundzie młodzieżowej",
           date: "Centrum Hipiki Jaszkowo, 24-27 września 2026"

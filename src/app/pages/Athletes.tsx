@@ -85,6 +85,18 @@ export function Athletes() {
       id: 18,
       image: "/pages/athletes/image34.jpg"
     },
+    {
+      id: 19,
+      image: "/pages/athletes/image35.jpg"
+    },
+    {
+      id: 20,
+      image: "/pages/athletes/image36.jpg"
+    },
+    {
+      id: 21,
+      image: "/pages/athletes/image37.jpg"
+    },
   ];
 
   return (

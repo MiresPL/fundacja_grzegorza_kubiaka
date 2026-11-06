@@ -496,13 +496,6 @@ export function Partners() {
             },
             {
               id: "wm-1-d",
-              title: "Rozmowy z Mistrzem z Technikum Hodowli Koni",
-              fullText: "Doskonalenie techniki jazdy na wyższym poziomie",
-              images: [],
-              instagramEmbedCode: ""
-            },
-            {
-              id: "wm-1-e",
               title: "Rozmowy z Mistrzem spotkanie na temat hejtu i social mediów z panią mecenas",
               fullText: "Doskonalenie techniki jazdy na wyższym poziomie",
               images: [],
@@ -680,6 +673,7 @@ export function Partners() {
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/13.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/14.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/15.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/siedliska_03_10_2026/16.jpg",
               ],
               instagramEmbedCode: ""
             },
@@ -715,14 +709,14 @@ export function Partners() {
           items: [
             {
               id: "wm-3-a",
-              title: "Klinika szkoleniowa z Mistrzem Kozłów",
+              title: "Klinika szkoleniowa z Mistrzem ViArt Kampinos",
               fullText: "",
               images: [],
               instagramEmbedCode: ""
             },
             {
               id: "wm-3-b",
-              title: "Klinika w Szumawie",
+              title: "Klinika szkoleniowa z Mistrzem w Erren Szumawa",
               fullText: "Za nami wyjątkowo udane wydarzenie, które odbyło się w dniach 19-20 września w Klubie Jeździeckim Erren Bobrowiec - klinika szkoleniowa w skokach przez przeszkody z wybitnym jeźdźcem i trenerem Grzegorzem Kubiakiem! \n" +
                   "\n" +
                   "Treningi z Mistrzem to cykl szkoleń, które odbywają się w ramach programu Wielki Mistrz pod patronatem Ministerstwa Sportu i Turystyki. Podczas treningów zawodnicy doskonalili technikę jazdy, pracę nad rytmem oraz prawidłowe najazdy na przeszkody. Nie zabrakło cennych wskazówek, nowych wyzwań i wielu sportowych emocji.\n" +
@@ -778,8 +772,11 @@ export function Partners() {
     {
       id: 3,
       name: "Minigrant Burmistrza Miasta i Gminy Piaseczno",
-      fullText:
-          "",
+      fullText: "Projekt jest realizowany na terenie obiektu w Siedliskach, gdzie posiadamy stajnie na 27 boksów dla naszych koni, pełnowymiarowy zewnętrzny plac ujeżdżeniowo-skokowy z kompletem przeszkód, halę ujeżdżeniowo-skokową oraz zaplecze socjalno-sanitarne. Celem projektu jest profesjonalne szkolenie młodzieży i przygotowanie jej do reprezentowania Polski na najważniejszych imprezach w kraju i za granicą w dyscyplinie olimpijskiej jaką jest jeździectwo - skoki przez przeszkody. Projekt zakłada promocję gminy Piaseczno, poprzez promowanie zawodniczek trenujących w klubie znajdującym się na terenie gminy. Klub skupia 19 zawodniczek z aktualną licencją PZJ.\n" +
+          "\n" +
+          "Jako Klub sportowy prowadzimy szkolenia na najwyższym poziomie, a prowadzi je  Olimpijczyk i 8-krotny Mistrza Polski Grzegorz Kubiak. \n" +
+          "\n" +
+          "Wspieramy naszych podopiecznych poprzez profesjonalny system szkolenia kształtujemy przyszłych mistrzów pod okiem legendy.",
       logo: "/pages/partners/piaseczno.png",
       images: [],
       instagramEmbedCode: "",
@@ -790,9 +787,45 @@ export function Partners() {
           items: [
             {
               id: "al-1-a",
-              title: "treningi w KJ Erren - Szumawa",
+              title: "Treningi na Olimpijskim poziomie",
               fullText: "",
-              images: [],
+              images: [
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/1.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/2.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/3.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/4.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/5.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/6.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/7.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/8.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/9.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/10.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/11.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/12.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/13.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/14.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/15.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/16.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/17.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/18.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/19.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/20.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/21.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/22.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/23.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/24.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/25.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/26.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/27.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/28.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/29.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/30.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/31.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/32.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/33.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/34.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/35.jpg",
+               ],
               instagramEmbedCode: ""
             },
           ]
