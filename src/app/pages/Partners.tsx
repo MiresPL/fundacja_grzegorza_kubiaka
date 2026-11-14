@@ -421,6 +421,17 @@ export function Partners() {
                 "pages/partners/programs/aktywni-lokalnie/treningi/madzia_i_iga/13.jpeg",
               ],
               instagramEmbedCode: ""
+            },
+            {
+              id: "al-1-h",
+              title: "4 listopad 2026",
+              fullText: "W ramach programu Ministerstwa Sportu i Turystyki oraz Fundacji Orły Sportu Aktywni Lokalnie zawodniczki i zawodnicy Fundacji Grzegorza Kubiaka -Rozwój i Pasja biorą udział w zajęciach sportowych z treningiem ujeżdżeniowo-skokowym. Uczestnicy pod okiem doświadczonego trenera Grzegorza Kubiaka doskonalą swe umiejętności zarówno w zakresie ujeżdżenia jak i techniki skoków. Treningi odbywają się cyklicznie 3-5 razy w tygodniu.",
+              images: [
+                "pages/partners/programs/aktywni-lokalnie/treningi/4_listopad_2026/1.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/4_listopad_2026/2.jpg",
+                "pages/partners/programs/aktywni-lokalnie/treningi/4_listopad_2026/3.jpg",
+              ],
+              instagramEmbedCode: ""
             }
           ]
         }
@@ -591,6 +602,11 @@ export function Partners() {
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/3.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/4.jpg",
                 "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/5.jpg",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/6.JPG",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/7.JPG",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/8.JPG",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/9.JPG",
+                "/pages/partners/programs/wielki-mistrz/trening-z-mistrzem/karolina_badowska/10.JPG",
               ],
               instagramEmbedCode: ""
             },
@@ -710,8 +726,49 @@ export function Partners() {
             {
               id: "wm-3-a",
               title: "Klinika szkoleniowa z Mistrzem ViArt Kampinos",
-              fullText: "",
-              images: [],
+              fullText: "Za nami dwudniowa Klinika szkoleniowa pod patronatem Ministerstwa Sportu i Turystyki w ramach programu Wielki Mistrz. Klinikę prowadził wybitny jeździec i trener Grzegorz Kubiak.\n" +
+                  "Było jak zawsze dużo treningu, dużo cennych uwag, był śmiech i pot, a także profesjonalne parkury. Klinikę zakończyliśmy pełni wiedzy, bogatsi w doświadczenie oraz umocnieni dobrym słowem Trenera, który każdemu dał wskazówki na dalszą pracę treningowa.\n" +
+                  "Czekamy na kolejne wydarzenia pod patronatem MSiT z udziałem naszego MIstrza Grzegorza Kubiaka.",
+              images: [
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/1.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/2.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/3.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/4.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/5.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/6.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/7.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/8.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/9.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/10.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/11.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/12.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/13.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/14.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/15.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/16.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/17.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/18.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/19.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/20.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/21.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/22.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/23.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/24.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/25.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/26.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/27.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/28.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/29.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/30.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/31.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/32.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/33.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/34.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/35.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/36.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/37.JPG",
+                "/pages/partners/programs/wielki-mistrz/kliniki-z-mistrzem/viart/38.JPG",
+              ],
               instagramEmbedCode: ""
             },
             {
@@ -825,6 +882,16 @@ export function Partners() {
                   "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/33.jpg",
                   "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/34.jpg",
                   "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/35.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/36.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/37.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/38.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/39.jpg",
+                 // "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/40.jpg",
+                  //"/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/41.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/43.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/44.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/45.jpg",
+                  "/pages/partners/programs/minigrant-piaseczno/jezdziectwo/treningi/46.jpg",
                ],
               instagramEmbedCode: ""
             },
